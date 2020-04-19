@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thejasvi Beleyur (Posts about Python, coding, scientific computing)</title><link>https://example.com/</link><description></description><atom:link href="https://example.com/categories/cat_python-coding-scientific-computing.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:thejasvib@gmail.com"&gt;Thejasvi Beleyur&lt;/a&gt; </copyright><lastBuildDate>Sat, 11 Apr 2020 06:55:05 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Better Science through good code</title><link>https://example.com/blog/pep_talk/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"Beautiful is better than ugly,
+  .... 
+  ....
+  Simple is better than complex.
+  ....
+  ....
+  Readability counts.
+  ....
+  ....
+  Errors should never pass silently
+  ....
+  If the implementation is hard to explain, it's a bad idea.
+  If the implementation is easy to explain, it may be a good idea.
+"&lt;/em&gt;
+    -- Excerpts from the PEP-20, the &lt;a href="http://www.thezenofpython.com/"&gt;Zen of Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the first things I began noticing after my transition to Python was the fact that the internet seemed to constantly throw words like 
+'PEP', and 'coding conventions', 'naming conventions' and 'line lengths' and the lot. My initial reaction was to ignore them and continue coding
+the way I had been. Back then I had been writing programs and hacking other peoples code for the past six years. I  thought  'Okay, this  is coding. What more is there?'. Classically naive thoughts eh?&lt;/p&gt;
+&lt;p&gt;And then, it happened. No, &lt;em&gt;not&lt;/em&gt; a magical  moment of expertise and awesomeness in coding, but the opposite of it all :P. An embarrasing, self-doubt seeding, waste of time experience, where I suddenly realised it all had to change. Having seeded  all this anticipation in you, I will now proceed to say this is a post for another time, suffice to say,  it was a professionally humbling experience, where I realised I had to go back and unlearn a bunch of things and learn a bunch concepts anew. This post is  about the power of one of those concepts: coding conventions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Good coding style is like correct punctuation: you can manage without it..."&lt;/em&gt; -- Hadley Wickham, &lt;a href="https://style.tidyverse.org/"&gt;The tidyverse style guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coding conventions are like  dialects  of a language in many ways. It's the umbrella term for a bunch of patterns that a group  of people use when they write code: how variables are named, the way the code is documented, or how the code is formatted. Each project typically has its own coding convention. In the Python community,  it seems like &lt;a href="https://www.python.org/dev/peps/pep-0008/"&gt;PEP-8&lt;/a&gt; is a common reference point. What is this PEP-8? The way I understand it, PEP-8 is the document which set out the coding conventions for all code that will be part of the main Python distribution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://numpy.org"&gt;NumPy&lt;/a&gt; docstrings and how following the patterns actually rewards you. &lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>https://example.com/blog/pep_talk/</guid><pubDate>Tue, 31 Mar 2020 05:37:00 GMT</pubDate></item><item><title>So, you do *everything* in Python?</title><link>https://example.com/blog/why_python/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"..and that was when Mowgli knew he would forever be safe in the comforting coils of Saamp, the Python"&lt;/em&gt;
+-- &lt;em&gt;Not Rudyard Kipling, 1892&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Open your eyes, look up to the skies and see" *
+&lt;/em&gt;--Queen, Not Rudyard Kipling, 1975 *&lt;/p&gt;
+&lt;p&gt;Every now and then at a conference, someone might ask me what programming language all this stuff was done in. 
+When I say Python, there's typically two reactions. One typical response is 'That's cool, I too use Python, which libraries...'
+, and as you  can imagine, the conversation takes a very detailed trajectory. The other typical response is 'I see, yeah, everyone's using Python nowadays. My supervisor/whole lab uses &lt;em&gt;&lt;insert sixletterword&gt;&lt;/insert&gt;&lt;/em&gt;, and so I'm kind of stuck at the moment'. My response to this statement is to strongly  urge the person to switch. Now is the best time to switch, and save yourself  time later etc. I  probably(definitely) end up sounding like a weird mix of concerned parent and preacher. &lt;/p&gt;
+&lt;p&gt;Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. Good code remains good code irrespective of the language of choice (and the  bad code..).
+The language of choice, however, strongly facilitates the kinds of techniques and attitudes to coding (which is a post for another time). &lt;/p&gt;
+&lt;p&gt;So, why should you switch to Python/&lt;em&gt;&lt;open-source language of your choise&gt;&lt;/open-source&gt;&lt;/em&gt; as early as possible?&lt;br&gt;
+Three strong reasons:&lt;/p&gt;
+&lt;h6&gt;*  1) It's free for me, my collaborators, and anyone else in the world to download and use&lt;/h6&gt;
+&lt;h6&gt;*  2) The supporting packages I  need to do your science are typically also free to download and use&lt;/h6&gt;
+&lt;h6&gt;*  3) I can write a piece of code, share it, and &lt;em&gt;anyone&lt;/em&gt; can use  it!&lt;/h6&gt;
+&lt;h5&gt;It's free (a la MJ, for me, and for you and the entire human race)&lt;/h5&gt;
+&lt;p&gt;The fact that installing an open-source computing platform makes it extremely portable. 
+I can download Python on my personal laptop, go to a field site in another part of the world and download it on a Raspberry Pi there! Working with commercially licensed platforms can be a genuine pain. You do not want to waste precious research hours going online and trying to get a license validated and authorised each time you switch locations, devices or labs. Moreover, most licenses are given through the research institution/lab using them - and not to individuals. What happens when you leave, what if you'd actually like to work with the latest release of the language, does that need an extra license?
+(Here I complain from personal experience)&lt;/p&gt;
+&lt;h4&gt;Open your eyes, and see - there's a  &lt;em&gt;rich&lt;/em&gt; scientific package ecosystem around you!&lt;/h4&gt;
+&lt;p&gt;One common comment I've heard is 'oh, but there's no good packages for &lt;em&gt;&lt;insert technique x&gt;&lt;/insert&gt;&lt;/em&gt;'. Whenever someone says that, it must taken with a big handful of salt. 
+Statements like  'oh, but &lt;em&gt;&lt;insertsixletterword&gt;&lt;/insertsixletterword&gt;&lt;/em&gt; has such cool packages for audio input-output and signal processing' are IMHO a result of misunderstanding what to expect from a language's package ecosystem. Even established scientists have said to me,  'Ah, Python, yeah - there aren't any good packages to do X'. Since all of us work in niche topics, we will have niche requirements. 
+Not even proprietary computing languages have niche packages do to specific things like processing black-hole data, or detecting bat calls in recordings.
+What any computing platform can provide, is an ecosystem to handle the variety of tasks needed on a day-to-day basis (data I/O, instrument interfacing, data pipelines, statistics, visualisation). 
+I do not realistically expect or require my computing language to have inbuilt packages to solve my &lt;em&gt;niche&lt;/em&gt; scientific needs. I can only expect that the bricks are 
+available! &lt;/p&gt;
+&lt;p&gt;So..be warned, Python's ecosystem is pretty damn good, and it's only getting better with time. In the recent past, I've been using &lt;em&gt;only&lt;/em&gt; Python, even for experimental work involving speaker playbacks, microphone recordings, signal analysis, visualisation, statistics $^{1}$ and the cherry on the cake - writing it all in pretty &lt;a href="https://example.com/blog/why_python/"&gt;Jupyter&lt;/a&gt; noteboooks. 
+The open package ecosystem means I essentially have a wide variety of packages to learn and try new techniques with time.
+Contrast this to constantly thinking about which packages you can actually afford ('..I'd love to try out machine learning, but it costs &lt;em&gt;&lt;insert x digit number&gt;, but would also need the &lt;/insert&gt;&lt;/em&gt;other cool package&lt;em&gt; along with that&lt;/em&gt;'). &lt;/p&gt;
+&lt;h4&gt;Write, share, repeat&lt;/h4&gt;
+&lt;p&gt;I write rather niche code most of the time. There are times when I will take the effort of putting it up online 
+and sharing it : 1) as part of a paper submission (as a DOI on a public repository) 2) when I think the code might be of interest to others, then I make it into a Python package and release it. 
+I can confidently put up my code somewhere knowing fully well that &lt;em&gt;anyone&lt;/em&gt; who would like to try it can step into it without thinking twice about the costs - and keep up withh any required upgrades or language version changes. 
+This may not be such an issue when you work in a rather established institute/university. I'm constantly thus surprised when I see introductory scientific computing courses
+being done with proprietary computing languages.&lt;/p&gt;
+&lt;p&gt;$^{1}$ &lt;em&gt;The packages I use for these tasks are: &lt;a href="https://example.com/blog/why_python/"&gt;scipy&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;sounddevice&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;pandas&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;matplotlib&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;statsmodels&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/why_python/</guid><pubDate>Sat, 28 Mar 2020 23:15:00 GMT</pubDate></item></channel></rss>

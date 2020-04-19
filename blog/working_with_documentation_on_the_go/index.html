@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On the advantages of simultaneous code and docs | Thejasvi Beleyur</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="https://example.com/blog/working_with_documentation_on_the_go/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Thejasvi Beleyur">
+<link rel="prev" href="../thought_on_releasing_a_package/" title="To package or not to package?" type="text/html">
+<link rel="next" href="../how_much_do_you_really_understand/" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)" type="text/html">
+<meta property="og:site_name" content="Thejasvi Beleyur">
+<meta property="og:title" content="On the advantages of simultaneous code and docs">
+<meta property="og:url" content="https://example.com/blog/working_with_documentation_on_the_go/">
+<meta property="og:description" content="In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a lot, and I">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-04-04T08:20:00+02:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://example.com/">
+
+                <span id="blog-title">Thejasvi Beleyur</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../about/">About</a>
+                </li>
+<li>
+<a href="../">Writing</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.md" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">On the advantages of simultaneous code and docs</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Thejasvi Beleyur
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-04T08:20:00+02:00" itemprop="datePublished" title="2020-04-04 08:20">2020-04-04 08:20</time></a>
+            </p>
+                <p class="commentline">
+        
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a <em>lot</em>, and I really only have the <a href=".">Sphinx</a> project to blame :P. Documenting
+your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is future you. I've thanked 
+pastme a zillion times by now because the current project I'm working on has grown to be a more than a few modules, and I was 
+quite afraid of not being able to keep track of stuff. However, this time I really decided to write <a href=".">NumPy</a> style docstrings 
+on all functions that are more than a few lines, and with a little bit of Sphinx magic, and some <a href=".">ReadTheDocs</a> hosting, the
+result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something beautiful.  It kind of 
+reminds me of  the first time I used LaTex to generate a manuscript. </p>
+<p>The problem I tend to have with a code base that gets large enough is that I forget which functions do what and their input formats. 
+Even though in the beginning there were only about five functions used commonly, over time, it becomes, seven, ten, fifteen, and that's 
+way too many to keep in mind, even though I'm working with the code on a daily basis. This is where having consistent documentation helps 
+like crazy at multiple places:</p>
+<pre class="code literal-block"><span></span><code><span class="mi">1</span>. <span class="nv">In</span> <span class="nv">the</span> <span class="nv">console</span><span class="o">/</span><span class="nv">command</span> <span class="nv">line</span>: <span class="nv">So</span> <span class="nv">you</span><span class="s1">'</span><span class="s">ve begun your coding session, and now you  want to do &lt;&lt;*coolthing*&gt;&gt;, with &lt;&lt;*amazefunction*&gt;&gt;, but, aargh,</span>
+</code></pre>
+
+
+<p>do you have to specify the <em>amazelevel</em> or is it a default, and don't you vaguely remember that <em>amazelevel</em> actually is an input for &lt;&lt;<em>create_amazingness</em>&gt;&gt;?
+So, if past you had done a good job of it, when you  type in <code>help(amazefunction)</code>, you'd get something like:</p>
+<pre class="code literal-block"><span></span><code><span class="n">help</span><span class="p">(</span><span class="n">amazefunction</span><span class="p">)</span>
+<span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
+
+<span class="n">amazefunction</span><span class="p">(</span><span class="n">amaze_type</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</code></pre>
+
+
+<p>Disappointing?..yeah. Now however, imagine you'd actually invested a minute extra while actually writing this function, and thus saved future you a few minutes. 
+This is what the output from <code>help(amazefunction)</code> could have looked like!</p>
+<pre class="code literal-block"><span></span><code><span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
+
+<span class="n">amazefunction</span><span class="p">(</span><span class="n">amaze_type</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="n">Creates</span> <span class="n">an</span> <span class="n">amazing</span> <span class="n">thing</span><span class="p">.</span> 
+
+    <span class="k">Parameters</span>
+    <span class="c1">----------</span>
+    <span class="n">amaze_type</span> <span class="p">:</span> <span class="n">str</span>
+        <span class="n">The</span> <span class="k">type</span> <span class="k">of</span> <span class="n">amazing</span> <span class="k">object</span> <span class="k">to</span> <span class="n">be</span> <span class="n">created</span><span class="p">.</span>
+        <span class="n">Possible</span> <span class="n">value</span> <span class="p">[</span><span class="s1">'unicorn'</span><span class="p">,</span> <span class="s1">'rakshasa'</span><span class="p">,</span> <span class="s1">'wolpertinger'</span><span class="p">]</span>
+
+    <span class="k">Returns</span>
+    <span class="c1">-------</span>
+    <span class="n">amazingness</span> <span class="p">:</span> <span class="k">dictionary</span>
+        <span class="n">The</span> <span class="n">amazingness</span> <span class="k">dictionary</span> <span class="n">has</span> <span class="n">keys</span>
+        <span class="s1">'height'</span><span class="p">,</span> <span class="s1">'weight'</span><span class="p">,</span> <span class="s1">'powers'</span> <span class="k">and</span> <span class="n">other</span>  <span class="n">optional</span>
+        <span class="n">descriptive</span> <span class="n">features</span> <span class="n">controlled</span> <span class="k">by</span> <span class="n">optional</span> 
+        <span class="n">arguments</span><span class="p">.</span>
+
+    <span class="n">See</span> <span class="n">Also</span>
+    <span class="c1">--------</span>
+    <span class="n">make_amazing_object</span>
+    <span class="n">check_amaze_type</span>
+</code></pre>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../thought_on_releasing_a_package/" rel="prev" title="To package or not to package?">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../how_much_do_you_really_understand/" rel="next" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+
+
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:thejasvib@gmail.com">Thejasvi Beleyur</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

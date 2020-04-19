@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What you *could* do, but you shouldn't | Thejasvi Beleyur</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="https://example.com/blog/error_msgs/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Thejasvi Beleyur">
+<link rel="prev" href="../example-jupyter-notebook-post/" title="A Jupyter Notebook post" type="text/html">
+<link rel="next" href="../why_python/" title="So, you do *everything* in Python?" type="text/html">
+<meta property="og:site_name" content="Thejasvi Beleyur">
+<meta property="og:title" content="What you *could* do, but you shouldn't">
+<meta property="og:url" content="https://example.com/blog/error_msgs/">
+<meta property="og:description" content="&quot;What gets you into trouble ain't what you don't know, but what you think you do, but ain't so&quot;
+This post is about how good software should be like an honest person - who knows their area of competenc">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-03-28T08:20:00+01:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://example.com/">
+
+                <span id="blog-title">Thejasvi Beleyur</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../about/">About</a>
+                </li>
+<li>
+<a href="../">Writing</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.md" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">What you *could* do, but you shouldn't</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Thejasvi Beleyur
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-03-28T08:20:00+01:00" itemprop="datePublished" title="2020-03-28 08:20">2020-03-28 08:20</time></a>
+            </p>
+                <p class="commentline">
+        
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p><em>"What gets you into trouble ain't what you don't know, but what you think you do, but ain't so"</em></p>
+<p>This post is about how good software should be like an honest person - who knows their area of competence before taking up a task <em>REPHRASE THISS-- IT'S TOO STRONG</em>. 
+We (myself included) often receive or write code to get things working, and then proceed to keep using it or share it eventually with our lab mates. 
+Like anything in the course of life,  use-cases for the software may change. A new project comes up,  or someone (Person X) legitimately decides it'll be cool to try out this new experiment
+and process the data with this awesome codebase.  Person X now triumphantly  sits in front of the computer...and waits for the code to  run through with anticipation .... and after a few seconds of anticipation,  out come the plots!!</p>
+<p>Of course, there's a twist to the story in that the results actually seem okay in the beginning, until Person X notices a bunch of weird details. Factor Z, a universal constant, is about 1.5 times more than it should - and this is too much. 
+But the diagnostic plots look fine, and the  code ran!! What is happening??</p>
+<p>Many agonising hours later, Person X finally figures out that the Awesome Codebase has been a somewhat dishonest person. 
+How is Awesome Codebase like a dishonest person you ask? Well, Person X figured out finally that Awesome Codebase was basically written to handle the analysis of Cool Experiments done to understand Factor Z using four Z-probes. What are Z-probes? They are the devices that measure the value of the Z-factor. Awesome Codebase can handle a wide variety of Z-probes, and that's why it's quite famous in its community. However, it  turns out Person X wanted to replicate  the experiments under the simplest possible conditions. Person X's experiment involves measurements with <em>three</em> Z-probes, instead of the standard five, six, or seven. 
+In principle,  Person X, thinks - the only reason people haven't done it before is because they were being exta careful  in the early days, who needs <strong>four</strong> Z-probes anyway??!!
+But no, days later, Person X finds out that Awesome Codebase really wasn't built to handle three Z-probes at all! It is a logical impossibility given the equations and Science in the field of Z-factor studies. It turns out all Z-factor experiments have been done only with a prime number of Z-probes, ranging from 5 to 29, but no-one had  really thought of going below 5.
+ If it is so  impossible, why didn't Awesome Codebase throw an error and stop everything dead in its tracks?</p>
+<p>Yes, the analogy isn't clear yet. Awesome Codebase has been like someone  who nods silently but enthusiastically  to the question 'Can you speak German, the people at the dinner we're going to don't speak much English ?'.
+And then, when you meet with Awesome Codebase for dinner, Awesome Codebase says 'Gruesse Sie', 'Danke', 'Salz' in a burst, and then settles down quietly for the rest of  the evening. Yes, you  could argue, this person does know <em>some</em> German - but the question is can they handle a conversation?
+Do they understand what is happening around them? Why are they not saying anything, do  they know saying these three things in a continuous string may be grammatically correct but socially unusual. </p>
+<p>The biggest question remains of course, that is - why  didn't my  acquaintancce just say they don't speak German well enough. You could have then made other plans.
+And so, in analogy, if Awesome Codebase was not built to handle less than five Z-probes - it should have said it out loud, thrown a warning, or even better - thrown a nasty error saying exaclty that <em>Z-probe error, this codebase cannot handle &lt;5 Z-probes!</em>
+Person X would have been happy, and moved on to find another equally awesome codebase, and  Awesome Codebase wouldn't have been dishonest. </p>
+<p>This is not a rant about how codebases are limited in their nature, it is a rant about the lack of documentation and clear communication to the user. 
+All codebases are limited in their capabilities and are constrained by the historically envisioned use-cases. 
+The use-cases will naturally change, but if the codebases capabilities don't match the requirements of the use-case -- this must be easily detectable!
+The capabilities and limitations of a code base must be clearly highlighted in the form of a README or user manuals. If even these are not heeded or clear,  the true weapon to prevent misuse is throwing a clear error. </p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../example-jupyter-notebook-post/" rel="prev" title="A Jupyter Notebook post">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../why_python/" rel="next" title="So, you do *everything* in Python?">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+
+
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:thejasvib@gmail.com">Thejasvi Beleyur</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

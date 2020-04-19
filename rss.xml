@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thejasvi Beleyur</title><link>https://example.com/</link><description>Re-search, animals, computing</description><atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:thejasvib@gmail.com"&gt;Thejasvi Beleyur&lt;/a&gt; </copyright><lastBuildDate>Fri, 17 Apr 2020 07:52:47 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>first post!!</title><link>https://example.com/blog/first-post/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;p&gt;## Wooooohaaa!!! __wooohaa__&lt;/p&gt;</description><guid>https://example.com/blog/first-post/</guid><pubDate>Thu, 09 Apr 2020 07:58:43 GMT</pubDate></item><item><title>Universal data formats</title><link>https://example.com/blog/universal_data_formats/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;I'm still trying to get through an old but (I think) cool analysis for a manuscript 
+that's over five years in the making now. In general, the code in the manuscript
+itself reflects the need for mutiple coding platforms and how each of  them 
+bring its own superpowers with it. All of the image analysis results in the project
+has been done in MATLAB. The stats and analyses have been beautifully documented
+in R with Markdown notebooks. A collaborator did some additional analyses in 
+MATLAB recently and sent over some new results. &lt;/p&gt;
+&lt;p&gt;It would have all been fine, and I probably  wouldn't have even written the post
+if I was still using the same laptop I had when the project started. Now, however, 
+even though the laptop is  the same, it's gone through a couple of OS changes 
+and currenly has  R and Python installed in it -  same cover different contents. Getting some .mat files and having to open
+them to analyse them is not impossible. I'm very thankful for cross-language packages like 
+&lt;a href="https://cran.r-project.org/web/packages/R.matlab/index.html"&gt;R.matlab&lt;/a&gt; and the inbuilt &lt;a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html"&gt;scipy.io.loadmat&lt;/a&gt; for existing, and am able to load the data without problem. &lt;/p&gt;
+&lt;p&gt;However, even the act of having to find a specialised package to load a dataset
+saved in a platform-specific format made me re-think how I would save my data in the
+future. It's not a computing platform based platform, it seems only natural to 
+end the day by saving the results  into  one .Rda or .pkl file. The issue is&lt;br&gt;
+when these same files have to be read by  someone else who's not invested
+in the same platform. Simple question, what if I'd decided to send a collaborator
+a .Rda/.pkl file, and they use a completely different computing platform which
+is called say... Kidneybeans? Kidneybeans is an established platform in the 
+field of MagicMaking and has a small but established community of researchers
+using it. Should your collaborator bend to the pressure of a larger established 
+community and spend 45 minutes of their time just to load and re-format the data?
+Not fair right?&lt;/p&gt;
+&lt;p&gt;The solution to overcoming cross-language barriers is of course to use 'standard' formats (csv, json, hdf5). 
+This has been suggested multiple times &lt;a href="https://example.com/blog/universal_data_formats/"&gt;ref1,ref2&lt;/a&gt; and it's only beginning to 
+dawn on me. It does require some effort, to plan and re-organise all the data
+into standard formats instead of being able to 'naturally' dump that list, 
+data frame and 3-channel image array into one file. I guess, the main advantage of 
+saving stuff into universal formats is the data will still remain accessible 
+to future collaborators using &lt;em&gt;any&lt;/em&gt; computational platform, and of course 
+the most likely future collaborator as always is &lt;strong&gt;futureyou&lt;/strong&gt;!&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/universal_data_formats/</guid><pubDate>Thu, 09 Apr 2020 07:27:00 GMT</pubDate></item><item><title>I need to finish this analysis for a manuscript that's *X* years old (...gasp)</title><link>https://example.com/blog/keeping_track_of_old/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;With the social distancing measures implemented thanks to the COVID19 pandemic, I saw a whole wave of memes about academics thinking they'd get more productive. 
+Now, that there're no more unnecessary meetings, teaching, or random interruptions from the workplace, it'd be great to &lt;em&gt;finally&lt;/em&gt; get back to doing &lt;strong&gt;SCAAAAAAINCE&lt;/strong&gt;. 
+I myself, wasn't quite sure, as an end phase PhD student working at a mainly research institute, I can't quite complain about any of these things, although I will say I am beginning to enjoy the luxury and convenience of waking up, getting ready, and heading to the desk a few metres away. &lt;/p&gt;
+&lt;p&gt;One of the things I've been trying to get done is make some new plots and add some data analyses from a project I was part of back in 2015. Yes, the project is now almost six years old. The manuscript has gone through one rejection, been revamped a bit and now it's soon to be submitted at its second journal. I actually began working in full steam on the analysis about a month ago, and made a decent amount of progress getting back to R and writing up  a new Markdown notebook to document the
+analysis as I was doing it, and that's when I began to realise how !@#$'ing hard it is to keep track of experiments, data and analyses that happened anything more than a few months ago. &lt;/p&gt;
+&lt;p&gt;Old code, that's not tested or documented well can be a nightmare. Old experimental analyses that're semi-documented and with a bunch of intermediate files lying aroud everywhere - that's just torture. And yes, I will admit that this always happens whenever I'm working with my (not-so) favourite collaborator, past me. Past me has a habit of coming up  with cool ideas, and then putting them into the same Rmd notebook as the final figures for journal submission. My other favourite is past me does this irritating thing of having done a bunch of very cool stuff about 75% of the way, but then forgetting to say what else needs to be done in case someone'd like to continue the work forward. The burden of having to figure it all out afresh each time, of course, means there's a growing sense of reluctance each time.&lt;/p&gt;
+&lt;p&gt;This is the point where I began to think about what could be done to improve the situation. I have heard from my colleagues who say they always have a fixed folder structure for instance, or that they keep all the 'old' stuff in one folder and the manuscript-worthy stuff in another. I guess there is a lot of room for  personal choice. However, the one thing with personal choice is that it means there are some real bad ideas that're not propagated, but even worse, there're some great ideas that don't reach out  too! One of  the things I picked  up from following conventions (eg. coding and documentation conventions) is the power and discipline they bring to the way you  write code. I have this nagging feeling there must be a field of research or industry where a nice set of protocols must have been formulated about  how to organise the code, raw data and processed data properly. I'd now venture to say, it &lt;strong&gt;must&lt;/strong&gt; be out there...time to start looking properly!!&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/keeping_track_of_old/</guid><pubDate>Wed, 08 Apr 2020 06:26:00 GMT</pubDate></item><item><title>So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)</title><link>https://example.com/blog/how_much_do_you_really_understand/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;Working in academia can be quite stressful. Handling the uncertainty  of where you'll be in the next few years, and whether you're competent enough at all
+(impostor syndrome). Even once you assume you've understood something, five minutes later another thing'll come up to show that the mental model you had 
+was actually rather wrong. It can be very frustrating to put in a lot of effort, assume success, and then back to square one.&lt;/p&gt;&lt;p&gt;&lt;a href="https://example.com/blog/how_much_do_you_really_understand/"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/how_much_do_you_really_understand/</guid><pubDate>Sun, 05 Apr 2020 05:43:00 GMT</pubDate></item><item><title>On the advantages of simultaneous code and docs</title><link>https://example.com/blog/working_with_documentation_on_the_go/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a &lt;em&gt;lot&lt;/em&gt;, and I really only have the &lt;a href="https://example.com/blog/working_with_documentation_on_the_go/"&gt;Sphinx&lt;/a&gt; project to blame :P. Documenting
+your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is future you. I've thanked 
+pastme a zillion times by now because the current project I'm working on has grown to be a more than a few modules, and I was 
+quite afraid of not being able to keep track of stuff. However, this time I really decided to write &lt;a href="https://example.com/blog/working_with_documentation_on_the_go/"&gt;NumPy&lt;/a&gt; style docstrings 
+on all functions that are more than a few lines, and with a little bit of Sphinx magic, and some &lt;a href="https://example.com/blog/working_with_documentation_on_the_go/"&gt;ReadTheDocs&lt;/a&gt; hosting, the
+result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something beautiful.  It kind of 
+reminds me of  the first time I used LaTex to generate a manuscript. &lt;/p&gt;
+&lt;p&gt;The problem I tend to have with a code base that gets large enough is that I forget which functions do what and their input formats. 
+Even though in the beginning there were only about five functions used commonly, over time, it becomes, seven, ten, fifteen, and that's 
+way too many to keep in mind, even though I'm working with the code on a daily basis. This is where having consistent documentation helps 
+like crazy at multiple places:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mi"&gt;1&lt;/span&gt;. &lt;span class="nv"&gt;In&lt;/span&gt; &lt;span class="nv"&gt;the&lt;/span&gt; &lt;span class="nv"&gt;console&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nv"&gt;command&lt;/span&gt; &lt;span class="nv"&gt;line&lt;/span&gt;: &lt;span class="nv"&gt;So&lt;/span&gt; &lt;span class="nv"&gt;you&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;ve begun your coding session, and now you  want to do &amp;lt;&amp;lt;*coolthing*&amp;gt;&amp;gt;, with &amp;lt;&amp;lt;*amazefunction*&amp;gt;&amp;gt;, but, aargh,&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;do you have to specify the &lt;em&gt;amazelevel&lt;/em&gt; or is it a default, and don't you vaguely remember that &lt;em&gt;amazelevel&lt;/em&gt; actually is an input for &amp;lt;&amp;lt;&lt;em&gt;create_amazingness&lt;/em&gt;&amp;gt;&amp;gt;?
+So, if past you had done a good job of it, when you  type in &lt;code&gt;help(amazefunction)&lt;/code&gt;, you'd get something like:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;help&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;amazefunction&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;Help&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;function&lt;/span&gt; &lt;span class="n"&gt;amazefunction&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="n"&gt;module&lt;/span&gt; &lt;span class="n"&gt;__main__&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+&lt;span class="n"&gt;amazefunction&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;amaze_type&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Disappointing?..yeah. Now however, imagine you'd actually invested a minute extra while actually writing this function, and thus saved future you a few minutes. 
+This is what the output from &lt;code&gt;help(amazefunction)&lt;/code&gt; could have looked like!&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Help&lt;/span&gt; &lt;span class="k"&gt;on&lt;/span&gt; &lt;span class="k"&gt;function&lt;/span&gt; &lt;span class="n"&gt;amazefunction&lt;/span&gt; &lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="n"&gt;module&lt;/span&gt; &lt;span class="n"&gt;__main__&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+&lt;span class="n"&gt;amazefunction&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;amaze_type&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;kwargs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;Creates&lt;/span&gt; &lt;span class="n"&gt;an&lt;/span&gt; &lt;span class="n"&gt;amazing&lt;/span&gt; &lt;span class="n"&gt;thing&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; 
+
+    &lt;span class="k"&gt;Parameters&lt;/span&gt;
+    &lt;span class="c1"&gt;----------&lt;/span&gt;
+    &lt;span class="n"&gt;amaze_type&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;str&lt;/span&gt;
+        &lt;span class="n"&gt;The&lt;/span&gt; &lt;span class="k"&gt;type&lt;/span&gt; &lt;span class="k"&gt;of&lt;/span&gt; &lt;span class="n"&gt;amazing&lt;/span&gt; &lt;span class="k"&gt;object&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;created&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+        &lt;span class="n"&gt;Possible&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'unicorn'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'rakshasa'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'wolpertinger'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+    &lt;span class="k"&gt;Returns&lt;/span&gt;
+    &lt;span class="c1"&gt;-------&lt;/span&gt;
+    &lt;span class="n"&gt;amazingness&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;dictionary&lt;/span&gt;
+        &lt;span class="n"&gt;The&lt;/span&gt; &lt;span class="n"&gt;amazingness&lt;/span&gt; &lt;span class="k"&gt;dictionary&lt;/span&gt; &lt;span class="n"&gt;has&lt;/span&gt; &lt;span class="n"&gt;keys&lt;/span&gt;
+        &lt;span class="s1"&gt;'height'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'weight'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;'powers'&lt;/span&gt; &lt;span class="k"&gt;and&lt;/span&gt; &lt;span class="n"&gt;other&lt;/span&gt;  &lt;span class="n"&gt;optional&lt;/span&gt;
+        &lt;span class="n"&gt;descriptive&lt;/span&gt; &lt;span class="n"&gt;features&lt;/span&gt; &lt;span class="n"&gt;controlled&lt;/span&gt; &lt;span class="k"&gt;by&lt;/span&gt; &lt;span class="n"&gt;optional&lt;/span&gt; 
+        &lt;span class="n"&gt;arguments&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+
+    &lt;span class="n"&gt;See&lt;/span&gt; &lt;span class="n"&gt;Also&lt;/span&gt;
+    &lt;span class="c1"&gt;--------&lt;/span&gt;
+    &lt;span class="n"&gt;make_amazing_object&lt;/span&gt;
+    &lt;span class="n"&gt;check_amaze_type&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><guid>https://example.com/blog/working_with_documentation_on_the_go/</guid><pubDate>Sat, 04 Apr 2020 06:20:00 GMT</pubDate></item><item><title>To package or not to package?</title><link>https://example.com/blog/thought_on_releasing_a_package/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;After having worked in a field for over a few years, and gotten comfortable with programming in the language of your  choice, you slowly begin to realise
+that your work essentially always consists of a set of analyses/tasks which are used again and again. For me, experimentally this means, having scripts ready 
+that will initiate recordings, playbacks, and saving of audio files for the experiments I do. In terms of simulations, it means writing a lot of code, typically
+based on a bunch of acoustics paradigms that are described by a bunch of equations/assumptions. &lt;/p&gt;
+&lt;p&gt;I have of course read over and over again, that it's good practise to bundle all of your goodies into one place, and keep them as a package somewhere [REFS].
+But why don't I do it yet? Right now, as an end-phase graduate student, I guess it's mainly because  each time I do this task, I'm not sure when I'll actually
+have to do it again. The effort of trying to create a common framework and plan all the basic experimenta/computational tasks to be implemented doesn't pay  off. 
+Writing a package, I realise  is as much about the single tiny  functions, as it is about the broad common concept and the sufficiently detailed documentation 
+aroud it. If  I'm the only  one who's  going to use  it,  and am not even sure when - it's not worth the time :P. &lt;/p&gt;
+&lt;p&gt;Butt, there are cases when I think the code  I've been using regularly is worth putting a decent amount of  thought into and pushing it all the way to a publicly 
+available package. Initially  I used to think it's worth putting the effort of making a whole  package and releasing it for public use only if there was a whole community of researchers interested in them. However, this thinking changed when I had the opportunity to  meet Kalle A{dot}stroem, professor at the University of Lund. His group has been developing a package  to automatically calculate microphone positions from sound playbacks. I had approached him in order to check if the package they'd developed could  be used to infer the positions of my microphone arrays I was using to track bats. The package worked for my data, and we thus began of developing an integrated experimental + software workflow for field biologists to  use. While talking about who might be interested in something like this, Kalle mentioned it'd be very cool  even if just two-three labs would  be genuinely  interested in using this whole workflow. This sounded like a very small number to me, two-three labs could basically just consist of four-six people (one PI + one grad student), and back  then I began wondering if this was too niche?&lt;/p&gt;
+&lt;p&gt;Nowadays, however, I've realised how niche academic research can be. While we may work on a day-to-day basis with a common set of assummptions and follow the same conceptual principles, each of us has slightly different use cases. Even when one other person benefits from the use of a released package, it should  be considered a success. &lt;/p&gt;
+&lt;p&gt;In some sense, the effect of publishing a package is a bit  more tangible  than publishing a paper in a journal. A package  is something that can be used on a day-to-day basis, unlike a paper which is a string of ideas put together. So should you publish your package or  not? Well, the rule of thumb I'm beginning to develop is essentially, if  you  think there's at least one more person who might find it interesting - do it. And remember, the most likely person who  will  find it interesting to use is this familiar-yet-unfamiliar stranger - future  you. &lt;/p&gt;
+&lt;p&gt;REFS&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/thought_on_releasing_a_package/</guid><pubDate>Wed, 01 Apr 2020 06:30:00 GMT</pubDate></item><item><title>Better Science through good code</title><link>https://example.com/blog/pep_talk/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"Beautiful is better than ugly,
+  .... 
+  ....
+  Simple is better than complex.
+  ....
+  ....
+  Readability counts.
+  ....
+  ....
+  Errors should never pass silently
+  ....
+  If the implementation is hard to explain, it's a bad idea.
+  If the implementation is easy to explain, it may be a good idea.
+"&lt;/em&gt;
+    -- Excerpts from the PEP-20, the &lt;a href="http://www.thezenofpython.com/"&gt;Zen of Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the first things I began noticing after my transition to Python was the fact that the internet seemed to constantly throw words like 
+'PEP', and 'coding conventions', 'naming conventions' and 'line lengths' and the lot. My initial reaction was to ignore them and continue coding
+the way I had been. Back then I had been writing programs and hacking other peoples code for the past six years. I  thought  'Okay, this  is coding. What more is there?'. Classically naive thoughts eh?&lt;/p&gt;
+&lt;p&gt;And then, it happened. No, &lt;em&gt;not&lt;/em&gt; a magical  moment of expertise and awesomeness in coding, but the opposite of it all :P. An embarrasing, self-doubt seeding, waste of time experience, where I suddenly realised it all had to change. Having seeded  all this anticipation in you, I will now proceed to say this is a post for another time, suffice to say,  it was a professionally humbling experience, where I realised I had to go back and unlearn a bunch of things and learn a bunch concepts anew. This post is  about the power of one of those concepts: coding conventions.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Good coding style is like correct punctuation: you can manage without it..."&lt;/em&gt; -- Hadley Wickham, &lt;a href="https://style.tidyverse.org/"&gt;The tidyverse style guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coding conventions are like  dialects  of a language in many ways. It's the umbrella term for a bunch of patterns that a group  of people use when they write code: how variables are named, the way the code is documented, or how the code is formatted. Each project typically has its own coding convention. In the Python community,  it seems like &lt;a href="https://www.python.org/dev/peps/pep-0008/"&gt;PEP-8&lt;/a&gt; is a common reference point. What is this PEP-8? The way I understand it, PEP-8 is the document which set out the coding conventions for all code that will be part of the main Python distribution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://numpy.org"&gt;NumPy&lt;/a&gt; docstrings and how following the patterns actually rewards you. &lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>https://example.com/blog/pep_talk/</guid><pubDate>Tue, 31 Mar 2020 05:37:00 GMT</pubDate></item><item><title>The coding language maketh not the science, but...</title><link>https://example.com/blog/the_programming_language/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;When it comes to choice  of  programming language to get any task done,  people can sometimes have strong opinions. &lt;!-- TEASER-END --&gt;
+I've seen tweets from authors reporting reviewers who wanted the stats/plots/something done in R, and being dismissive of it 
+being done in any  other language. This is truly ridiculous, and this kind of attitude amounts to a weird, unhealthy kind 
+of gate-keeping. What will come next, oh the code is only  compatible with a Windows OS, it should have been developed keeping 
+a Unix OS in mind...or even more specific comments about which packages to use?&lt;/p&gt;
+&lt;p&gt;The point is, there is a feeling some members of the community have that certain computational tasks are well suited to be done 
+with &lt;em&gt;insert favouriteprogramminglanguage&lt;/em&gt;. I find this attitude absurd and take it to be a form of irrational favoritism. If 
+a piece of code is not in a coding language I use regularly, the only thing it means is that I may  not be familiar  with 
+a whole bunch of cool concepts and ideas that the authors use. It doesn't mean the work is sub-standard. This argument cuts 
+both ways, whether the language is an open-source or proprietary platform. If anything at all, if I have to read code written 
+in an unfamiliar language and understand it - it needs to be well-documented! The user/reader needs  to understand what  is 
+happening in the code irrespective of the actual for and while loops running under the hood.&lt;/p&gt;
+&lt;p&gt;Documenting code well is not a trivial task,  and not something which can be done well over a couple of days. The closest task to documenting a codebase
+ is writing a (scientific) manuscript. Things keep changing, you realise a bunch of things over a series of iterations, and 
+even then there may be details lying around from the time you actually created the manuscript file itself. &lt;/p&gt;
+&lt;p&gt;So, okay, the programming language maketh not the science. A well-documented codebase is more capable of convincing an
+audience of its own utility and accuracy.&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/the_programming_language/</guid><pubDate>Mon, 30 Mar 2020 08:16:00 GMT</pubDate></item><item><title>So, you do *everything* in Python?</title><link>https://example.com/blog/why_python/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"..and that was when Mowgli knew he would forever be safe in the comforting coils of Saamp, the Python"&lt;/em&gt;
+-- &lt;em&gt;Not Rudyard Kipling, 1892&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"Open your eyes, look up to the skies and see" *
+&lt;/em&gt;--Queen, Not Rudyard Kipling, 1975 *&lt;/p&gt;
+&lt;p&gt;Every now and then at a conference, someone might ask me what programming language all this stuff was done in. 
+When I say Python, there's typically two reactions. One typical response is 'That's cool, I too use Python, which libraries...'
+, and as you  can imagine, the conversation takes a very detailed trajectory. The other typical response is 'I see, yeah, everyone's using Python nowadays. My supervisor/whole lab uses &lt;em&gt;&lt;insert sixletterword&gt;&lt;/insert&gt;&lt;/em&gt;, and so I'm kind of stuck at the moment'. My response to this statement is to strongly  urge the person to switch. Now is the best time to switch, and save yourself  time later etc. I  probably(definitely) end up sounding like a weird mix of concerned parent and preacher. &lt;/p&gt;
+&lt;p&gt;Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. Good code remains good code irrespective of the language of choice (and the  bad code..).
+The language of choice, however, strongly facilitates the kinds of techniques and attitudes to coding (which is a post for another time). &lt;/p&gt;
+&lt;p&gt;So, why should you switch to Python/&lt;em&gt;&lt;open-source language of your choise&gt;&lt;/open-source&gt;&lt;/em&gt; as early as possible?&lt;br&gt;
+Three strong reasons:&lt;/p&gt;
+&lt;h6&gt;*  1) It's free for me, my collaborators, and anyone else in the world to download and use&lt;/h6&gt;
+&lt;h6&gt;*  2) The supporting packages I  need to do your science are typically also free to download and use&lt;/h6&gt;
+&lt;h6&gt;*  3) I can write a piece of code, share it, and &lt;em&gt;anyone&lt;/em&gt; can use  it!&lt;/h6&gt;
+&lt;h5&gt;It's free (a la MJ, for me, and for you and the entire human race)&lt;/h5&gt;
+&lt;p&gt;The fact that installing an open-source computing platform makes it extremely portable. 
+I can download Python on my personal laptop, go to a field site in another part of the world and download it on a Raspberry Pi there! Working with commercially licensed platforms can be a genuine pain. You do not want to waste precious research hours going online and trying to get a license validated and authorised each time you switch locations, devices or labs. Moreover, most licenses are given through the research institution/lab using them - and not to individuals. What happens when you leave, what if you'd actually like to work with the latest release of the language, does that need an extra license?
+(Here I complain from personal experience)&lt;/p&gt;
+&lt;h4&gt;Open your eyes, and see - there's a  &lt;em&gt;rich&lt;/em&gt; scientific package ecosystem around you!&lt;/h4&gt;
+&lt;p&gt;One common comment I've heard is 'oh, but there's no good packages for &lt;em&gt;&lt;insert technique x&gt;&lt;/insert&gt;&lt;/em&gt;'. Whenever someone says that, it must taken with a big handful of salt. 
+Statements like  'oh, but &lt;em&gt;&lt;insertsixletterword&gt;&lt;/insertsixletterword&gt;&lt;/em&gt; has such cool packages for audio input-output and signal processing' are IMHO a result of misunderstanding what to expect from a language's package ecosystem. Even established scientists have said to me,  'Ah, Python, yeah - there aren't any good packages to do X'. Since all of us work in niche topics, we will have niche requirements. 
+Not even proprietary computing languages have niche packages do to specific things like processing black-hole data, or detecting bat calls in recordings.
+What any computing platform can provide, is an ecosystem to handle the variety of tasks needed on a day-to-day basis (data I/O, instrument interfacing, data pipelines, statistics, visualisation). 
+I do not realistically expect or require my computing language to have inbuilt packages to solve my &lt;em&gt;niche&lt;/em&gt; scientific needs. I can only expect that the bricks are 
+available! &lt;/p&gt;
+&lt;p&gt;So..be warned, Python's ecosystem is pretty damn good, and it's only getting better with time. In the recent past, I've been using &lt;em&gt;only&lt;/em&gt; Python, even for experimental work involving speaker playbacks, microphone recordings, signal analysis, visualisation, statistics $^{1}$ and the cherry on the cake - writing it all in pretty &lt;a href="https://example.com/blog/why_python/"&gt;Jupyter&lt;/a&gt; noteboooks. 
+The open package ecosystem means I essentially have a wide variety of packages to learn and try new techniques with time.
+Contrast this to constantly thinking about which packages you can actually afford ('..I'd love to try out machine learning, but it costs &lt;em&gt;&lt;insert x digit number&gt;, but would also need the &lt;/insert&gt;&lt;/em&gt;other cool package&lt;em&gt; along with that&lt;/em&gt;'). &lt;/p&gt;
+&lt;h4&gt;Write, share, repeat&lt;/h4&gt;
+&lt;p&gt;I write rather niche code most of the time. There are times when I will take the effort of putting it up online 
+and sharing it : 1) as part of a paper submission (as a DOI on a public repository) 2) when I think the code might be of interest to others, then I make it into a Python package and release it. 
+I can confidently put up my code somewhere knowing fully well that &lt;em&gt;anyone&lt;/em&gt; who would like to try it can step into it without thinking twice about the costs - and keep up withh any required upgrades or language version changes. 
+This may not be such an issue when you work in a rather established institute/university. I'm constantly thus surprised when I see introductory scientific computing courses
+being done with proprietary computing languages.&lt;/p&gt;
+&lt;p&gt;$^{1}$ &lt;em&gt;The packages I use for these tasks are: &lt;a href="https://example.com/blog/why_python/"&gt;scipy&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;sounddevice&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;pandas&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;matplotlib&lt;/a&gt;, &lt;a href="https://example.com/blog/why_python/"&gt;statsmodels&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/why_python/</guid><pubDate>Sat, 28 Mar 2020 23:15:00 GMT</pubDate></item><item><title>What you *could* do, but you shouldn't</title><link>https://example.com/blog/error_msgs/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"What gets you into trouble ain't what you don't know, but what you think you do, but ain't so"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This post is about how good software should be like an honest person - who knows their area of competence before taking up a task &lt;em&gt;REPHRASE THISS-- IT'S TOO STRONG&lt;/em&gt;. 
+We (myself included) often receive or write code to get things working, and then proceed to keep using it or share it eventually with our lab mates. 
+Like anything in the course of life,  use-cases for the software may change. A new project comes up,  or someone (Person X) legitimately decides it'll be cool to try out this new experiment
+and process the data with this awesome codebase.  Person X now triumphantly  sits in front of the computer...and waits for the code to  run through with anticipation .... and after a few seconds of anticipation,  out come the plots!!&lt;/p&gt;
+&lt;p&gt;Of course, there's a twist to the story in that the results actually seem okay in the beginning, until Person X notices a bunch of weird details. Factor Z, a universal constant, is about 1.5 times more than it should - and this is too much. 
+But the diagnostic plots look fine, and the  code ran!! What is happening??&lt;/p&gt;
+&lt;p&gt;Many agonising hours later, Person X finally figures out that the Awesome Codebase has been a somewhat dishonest person. 
+How is Awesome Codebase like a dishonest person you ask? Well, Person X figured out finally that Awesome Codebase was basically written to handle the analysis of Cool Experiments done to understand Factor Z using four Z-probes. What are Z-probes? They are the devices that measure the value of the Z-factor. Awesome Codebase can handle a wide variety of Z-probes, and that's why it's quite famous in its community. However, it  turns out Person X wanted to replicate  the experiments under the simplest possible conditions. Person X's experiment involves measurements with &lt;em&gt;three&lt;/em&gt; Z-probes, instead of the standard five, six, or seven. 
+In principle,  Person X, thinks - the only reason people haven't done it before is because they were being exta careful  in the early days, who needs &lt;strong&gt;four&lt;/strong&gt; Z-probes anyway??!!
+But no, days later, Person X finds out that Awesome Codebase really wasn't built to handle three Z-probes at all! It is a logical impossibility given the equations and Science in the field of Z-factor studies. It turns out all Z-factor experiments have been done only with a prime number of Z-probes, ranging from 5 to 29, but no-one had  really thought of going below 5.
+ If it is so  impossible, why didn't Awesome Codebase throw an error and stop everything dead in its tracks?&lt;/p&gt;
+&lt;p&gt;Yes, the analogy isn't clear yet. Awesome Codebase has been like someone  who nods silently but enthusiastically  to the question 'Can you speak German, the people at the dinner we're going to don't speak much English ?'.
+And then, when you meet with Awesome Codebase for dinner, Awesome Codebase says 'Gruesse Sie', 'Danke', 'Salz' in a burst, and then settles down quietly for the rest of  the evening. Yes, you  could argue, this person does know &lt;em&gt;some&lt;/em&gt; German - but the question is can they handle a conversation?
+Do they understand what is happening around them? Why are they not saying anything, do  they know saying these three things in a continuous string may be grammatically correct but socially unusual. &lt;/p&gt;
+&lt;p&gt;The biggest question remains of course, that is - why  didn't my  acquaintancce just say they don't speak German well enough. You could have then made other plans.
+And so, in analogy, if Awesome Codebase was not built to handle less than five Z-probes - it should have said it out loud, thrown a warning, or even better - thrown a nasty error saying exaclty that &lt;em&gt;Z-probe error, this codebase cannot handle &amp;lt;5 Z-probes!&lt;/em&gt;
+Person X would have been happy, and moved on to find another equally awesome codebase, and  Awesome Codebase wouldn't have been dishonest. &lt;/p&gt;
+&lt;p&gt;This is not a rant about how codebases are limited in their nature, it is a rant about the lack of documentation and clear communication to the user. 
+All codebases are limited in their capabilities and are constrained by the historically envisioned use-cases. 
+The use-cases will naturally change, but if the codebases capabilities don't match the requirements of the use-case -- this must be easily detectable!
+The capabilities and limitations of a code base must be clearly highlighted in the form of a README or user manuals. If even these are not heeded or clear,  the true weapon to prevent misuse is throwing a clear error. &lt;/p&gt;&lt;/div&gt;</description><guid>https://example.com/blog/error_msgs/</guid><pubDate>Sat, 28 Mar 2020 07:20:00 GMT</pubDate></item></channel></rss>
