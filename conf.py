@@ -20,7 +20,7 @@ BLOG_AUTHOR = "Thejasvi Beleyur"  # (translatable)
 BLOG_TITLE = "Thejasvi Beleyur"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "localhost:8000/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
@@ -140,7 +140,11 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
                   ("/about/","About"),
-                  ("/blog/","Writing"),
+                  ("/research/","Research"),
+                  ("/publications","Publications"),  
+                  ("/cv","CV"),
+                  ("/code","Code"),    
+                  ("/blog/","Writing"),  
                   ("/categories/", "Tags"),
                     ),
                 }

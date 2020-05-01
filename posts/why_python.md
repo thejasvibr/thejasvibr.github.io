@@ -12,7 +12,7 @@ Every now and then at a conference, someone might ask me what programming langua
 When I say Python, there's typically two reactions. One typical response is 'That's cool, I too use Python, which libraries...'
 , and as you  can imagine, the conversation takes a very detailed trajectory. The other typical response is 'I see, yeah, everyone's using Python nowadays. My supervisor/whole lab uses *<insert sixletterword>*, and so I'm kind of stuck at the moment'. My response to this statement is to strongly  urge the person to switch. Now is the best time to switch, and save yourself  time later etc. I  probably(definitely) end up sounding like a weird mix of concerned parent and preacher. 
 
-Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. Good code remains good code irrespective of the language of choice (and the  bad code..).
+Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. <!--TEASER_END-->Good code remains good code irrespective of the language of choice (and the  bad code..).
 The language of choice, however, strongly facilitates the kinds of techniques and attitudes to coding (which is a post for another time). 
 
 So, why should you switch to Python/*<open-source language of your choise>* as early as possible?  
