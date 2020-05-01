@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>On the advantages of simultaneous code and docs | Thejasvi Beleyur</title>
+<title>Simultaneous code and docs: a safety net for your project | Thejasvi Beleyur</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://example.com/blog/working_with_documentation_on_the_go/">
+<link rel="canonical" href="blog/working_with_documentation_on_the_go/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Thejasvi Beleyur">
 <link rel="prev" href="../thought_on_releasing_a_package/" title="To package or not to package?" type="text/html">
-<link rel="next" href="../how_much_do_you_really_understand/" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)" type="text/html">
+<link rel="next" href="../4_how_much_do_you_really_understand/" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)" type="text/html">
 <meta property="og:site_name" content="Thejasvi Beleyur">
-<meta property="og:title" content="On the advantages of simultaneous code and docs">
-<meta property="og:url" content="https://example.com/blog/working_with_documentation_on_the_go/">
-<meta property="og:description" content="In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
-to get out. Nowadays, however, things have changed a lot, and I">
+<meta property="og:title" content="Simultaneous code and docs: a safety net for your project">
+<meta property="og:url" content="blog/working_with_documentation_on_the_go/">
+<meta property="og:description" content="In the past I always used to either badly document my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a lot, and I real">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-04-04T08:20:00+02:00">
 </head>
@@ -34,7 +34,7 @@ to get out. Nowadays, however, things have changed a lot, and I">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://example.com/">
+            <a class="navbar-brand" href="localhost:8000/">
 
                 <span id="blog-title">Thejasvi Beleyur</span>
             </a>
@@ -44,6 +44,18 @@ to get out. Nowadays, however, things have changed a lot, and I">
             <ul class="nav navbar-nav">
 <li>
 <a href="../../about/">About</a>
+                </li>
+<li>
+<a href="../../research/">Research</a>
+                </li>
+<li>
+<a href="../../publications">Publications</a>
+                </li>
+<li>
+<a href="../../cv">CV</a>
+                </li>
+<li>
+<a href="../../code">Code</a>
                 </li>
 <li>
 <a href="../">Writing</a>
@@ -71,7 +83,7 @@ to get out. Nowadays, however, things have changed a lot, and I">
         <div class="row">
             
             
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">On the advantages of simultaneous code and docs</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Simultaneous code and docs: a safety net for your project</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
@@ -94,24 +106,21 @@ to get out. Nowadays, however, things have changed a lot, and I">
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
-to get out. Nowadays, however, things have changed a <em>lot</em>, and I really only have the <a href=".">Sphinx</a> project to blame :P. Documenting
-your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is future you. I've thanked 
-pastme a zillion times by now because the current project I'm working on has grown to be a more than a few modules, and I was 
-quite afraid of not being able to keep track of stuff. However, this time I really decided to write <a href=".">NumPy</a> style docstrings 
-on all functions that are more than a few lines, and with a little bit of Sphinx magic, and some <a href=".">ReadTheDocs</a> hosting, the
-result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something beautiful.  It kind of 
-reminds me of  the first time I used LaTex to generate a manuscript. </p>
-<p>The problem I tend to have with a code base that gets large enough is that I forget which functions do what and their input formats. 
-Even though in the beginning there were only about five functions used commonly, over time, it becomes, seven, ten, fifteen, and that's 
-way too many to keep in mind, even though I'm working with the code on a daily basis. This is where having consistent documentation helps 
-like crazy at multiple places:</p>
-<pre class="code literal-block"><span></span><code><span class="mi">1</span>. <span class="nv">In</span> <span class="nv">the</span> <span class="nv">console</span><span class="o">/</span><span class="nv">command</span> <span class="nv">line</span>: <span class="nv">So</span> <span class="nv">you</span><span class="s1">'</span><span class="s">ve begun your coding session, and now you  want to do &lt;&lt;*coolthing*&gt;&gt;, with &lt;&lt;*amazefunction*&gt;&gt;, but, aargh,</span>
-</code></pre>
-
-
-<p>do you have to specify the <em>amazelevel</em> or is it a default, and don't you vaguely remember that <em>amazelevel</em> actually is an input for &lt;&lt;<em>create_amazingness</em>&gt;&gt;?
-So, if past you had done a good job of it, when you  type in <code>help(amazefunction)</code>, you'd get something like:</p>
+<p>In the past I always used to either badly document my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a <em>lot</em>, and I really only have the <a href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> project to blame :P. Documenting
+your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is <em>futureyou</em>. I've thanked 
+<em>pastme</em> a zillion times by now because the current project I'm working on has grown to be a more than a few files, and I was 
+quite afraid of not being able to keep track of stuff. However, this time I really decided to write <a href="https://numpydoc.readthedocs.io/en/latest/format.html">NumPy</a> style docstrings on all functions that are more than a two lines, and with a little bit of Sphinx magic, and some <a href="https://docs.readthedocs.io/en/stable/">ReadTheDocs</a> hosting, the result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something nice.<!-- TEASER_END--></p>
+<p>The problem I tend to have with a code base that gets large enough is that I forget which functions do what and their input and output formats. 
+There is a limit to the number of things you can keep in your head over the span of a week or a month. Writing detailed documentation with 
+the code is useful because it helps you keep track of how things are implemented, what is required for each function, and even keep notes 
+on the limitations of different functions/objects. </p>
+<p>Is it worth it? Even though in the beginning there may be only five functions used repeatedly, it slows grows to seven, ten, fifteen, and that's 
+way too many to keep in mind, even though I'm working with the code on a daily basis. It's only once you get knee-deep into a project that you begin 
+to realise all the details that weren't so obvious from a distance.</p>
+<h5>Writing documentation:</h5>
+<p>In the console/command line: So you've begun your coding session, and now you  want to do &lt;&lt;<em>coolthing</em>&gt;&gt;, with &lt;&lt;<em>amazefunction</em>&gt;&gt;, but, aargh, 
+do you have to specify the <code>amazelevel=10</code> or is it a default value? And don't you vaguely remember that the value for <em>amazelevel</em> is actually an input for &lt;&lt;<em>create_amazingness</em>&gt;&gt;? So, if past you had done a good job of it, when you  type in <code>help(amazefunction)</code>, you'd get some information hopefully?</p>
 <pre class="code literal-block"><span></span><code><span class="n">help</span><span class="p">(</span><span class="n">amazefunction</span><span class="p">)</span>
 <span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
 
@@ -119,7 +128,7 @@ So, if past you had done a good job of it, when you  type in <code>help(amazefun
 </code></pre>
 
 
-<p>Disappointing?..yeah. Now however, imagine you'd actually invested a minute extra while actually writing this function, and thus saved future you a few minutes. 
+<p>Disappointing?..yeah. Now however, imagine you'd actually invested a minute extra while actually writing this function, and thus saved <em>futureyou</em> a few minutes. 
 This is what the output from <code>help(amazefunction)</code> could have looked like!</p>
 <pre class="code literal-block"><span></span><code><span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
 
@@ -130,7 +139,7 @@ This is what the output from <code>help(amazefunction)</code> could have looked 
     <span class="c1">----------</span>
     <span class="n">amaze_type</span> <span class="p">:</span> <span class="n">str</span>
         <span class="n">The</span> <span class="k">type</span> <span class="k">of</span> <span class="n">amazing</span> <span class="k">object</span> <span class="k">to</span> <span class="n">be</span> <span class="n">created</span><span class="p">.</span>
-        <span class="n">Possible</span> <span class="n">value</span> <span class="p">[</span><span class="s1">'unicorn'</span><span class="p">,</span> <span class="s1">'rakshasa'</span><span class="p">,</span> <span class="s1">'wolpertinger'</span><span class="p">]</span>
+        <span class="n">Needs</span> <span class="k">to</span> <span class="n">be</span> <span class="n">one</span> <span class="k">of</span> <span class="n">these</span> <span class="k">values</span> <span class="p">[</span><span class="s1">'unicorn'</span><span class="p">,</span> <span class="s1">'rakshasa'</span><span class="p">,</span> <span class="s1">'wolpertinger'</span><span class="p">]</span> 
 
     <span class="k">Returns</span>
     <span class="c1">-------</span>
@@ -152,7 +161,7 @@ This is what the output from <code>help(amazefunction)</code> could have looked 
                 <a href="../thought_on_releasing_a_package/" rel="prev" title="To package or not to package?">Previous post</a>
             </li>
             <li class="next">
-                <a href="../how_much_do_you_really_understand/" rel="next" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)">Next post</a>
+                <a href="../4_how_much_do_you_really_understand/" rel="next" title="So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)">Next post</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
         

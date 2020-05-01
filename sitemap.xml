@@ -6,111 +6,149 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
-  <lastmod>2020-04-16T05:38:00Z</lastmod>
+  <loc>8000/</loc>
+  <lastmod>2020-05-01T08:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="index.html" />
  </url>
  <url>
-  <loc>https://example.com/2020/</loc>
-  <lastmod>2020-04-09T07:59:00Z</lastmod>
+  <loc>8000/2020/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/about/</loc>
-  <lastmod>2020-04-16T05:13:00Z</lastmod>
+  <loc>8000/about/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="about/" />
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2020-04-16T05:44:00Z</lastmod>
+  <loc>8000/archive.html</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/blog/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/blog/error_msgs/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/2_universal_data_formats/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/2_universal_data_formats/" />
  </url>
  <url>
-  <loc>https://example.com/blog/example-jupyter-notebook-post/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/4_how_much_do_you_really_understand/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/4_how_much_do_you_really_understand/" />
  </url>
  <url>
-  <loc>https://example.com/blog/first-post/</loc>
-  <lastmod>2020-04-09T07:59:00Z</lastmod>
+  <loc>8000/blog/error_msgs/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/error_msgs/" />
  </url>
  <url>
-  <loc>https://example.com/blog/how_much_do_you_really_understand/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/example-jupyter-notebook-post/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/example-jupyter-notebook-post/" />
  </url>
  <url>
-  <loc>https://example.com/blog/index-1.html</loc>
-  <lastmod>2020-04-17T07:52:00Z</lastmod>
+  <loc>8000/blog/finish-this-analysis/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/finish-this-analysis/" />
  </url>
  <url>
-  <loc>https://example.com/blog/keeping_track_of_old/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/first-post/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/first-post/" />
  </url>
  <url>
-  <loc>https://example.com/blog/pep_talk/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/index-1.html</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/blog/the_programming_language/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/pep_talk/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/pep_talk/" />
  </url>
  <url>
-  <loc>https://example.com/blog/thought_on_releasing_a_package/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/the_programming_language/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/the_programming_language/" />
  </url>
  <url>
-  <loc>https://example.com/blog/universal_data_formats/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/thought_on_releasing_a_package/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/thought_on_releasing_a_package/" />
  </url>
  <url>
-  <loc>https://example.com/blog/why_python/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/why_python/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/why_python/" />
  </url>
  <url>
-  <loc>https://example.com/blog/working_with_documentation_on_the_go/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/blog/working_with_documentation_on_the_go/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="blog/working_with_documentation_on_the_go/" />
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_data-analysis/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_data-analysis/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_python-coding-scientific-computing/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-coding-scientific-computing/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_python-coding-writing/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-coding-writing/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_python-reproducible-science/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-reproducible-science/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_python-scientific-computing/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-scientific-computing/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_science/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_science/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_scientific-computing/</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_scientific-computing/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
-  <lastmod>2020-04-09T07:55:00Z</lastmod>
+  <loc>8000/code/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="code/" />
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
-  <lastmod>2020-04-09T07:55:00Z</lastmod>
+  <loc>8000/cv/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="cv/" />
+ </url>
+ <url>
+  <loc>8000/galleries/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>8000/listings/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>8000/publications/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="publications/" />
+ </url>
+ <url>
+  <loc>8000/research/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="research/" />
+ </url>
+ <url>
+  <loc>8000/usho-visho/</loc>
+  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="usho-visho/" />
  </url>
 </urlset>

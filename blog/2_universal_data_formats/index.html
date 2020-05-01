@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Universal data formats | Thejasvi Beleyur</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="blog/2_universal_data_formats/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Thejasvi Beleyur">
+<link rel="prev" href="../finish-this-analysis/" title="I need to finish this analysis for a manuscript that's *X* years old (...gasp)" type="text/html">
+<link rel="next" href="../first-post/" title="first post!!" type="text/html">
+<meta property="og:site_name" content="Thejasvi Beleyur">
+<meta property="og:title" content="Universal data formats">
+<meta property="og:url" content="blog/2_universal_data_formats/">
+<meta property="og:description" content="I'm still trying to get through an old but (I think) cool analysis for a manuscript 
+that's over five years in the making now. The code in the manuscript
+itself reflects the need for mutiple coding pl">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-04-09T09:27:00+02:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="localhost:8000/">
+
+                <span id="blog-title">Thejasvi Beleyur</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../about/">About</a>
+                </li>
+<li>
+<a href="../../research/">Research</a>
+                </li>
+<li>
+<a href="../../publications">Publications</a>
+                </li>
+<li>
+<a href="../../cv">CV</a>
+                </li>
+<li>
+<a href="../../code">Code</a>
+                </li>
+<li>
+<a href="../">Writing</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.md" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Universal data formats</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Thejasvi Beleyur
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-09T09:27:00+02:00" itemprop="datePublished" title="2020-04-09 09:27">2020-04-09 09:27</time><span class="updated"> (updated
+                    <time class="updated dt-updated" datetime="2020-04-23T08:53:00+02:00" itemprop="dateUpdated" title="2020-04-23 08:53">2020-04-23 08:53</time>)</span>
+            </a>
+            </p>
+                <p class="commentline">
+        
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>I'm still trying to get through an old but (<em>I think</em>) cool analysis for a manuscript 
+that's over five years in the making now. The code in the manuscript
+itself reflects the need for mutiple coding platforms and how each of them 
+bring its own superpowers with it. All of the image analysis results in the project
+has been done in MATLAB. The stats and analyses have been executed and documented
+in R with Markdown notebooks. A collaborator did some additional analyses in 
+MATLAB recently and sent over some new results. </p>
+<p>It would have all been fine, and I probably  wouldn't have even written the post if <!-- TEASER_END-->
+I was still using the same laptop I had when the project started. Now, however, 
+even though the laptop is  the same, it's gone through a couple of OS changes 
+and currenly has  R and Python installed in it -  same cover different contents. Getting some .mat files and having to open
+them to analyse them is not impossible. I'm very thankful for cross-language packages like 
+<a href="https://cran.r-project.org/web/packages/R.matlab/index.html">R.matlab</a> and the inbuilt <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html">scipy.io.loadmat</a>, and was able to load the data without problem. </p>
+<p>However, even the act of having to find a specialised package to load a dataset
+saved in a platform-specific format made me re-think how I would save my data in the
+future. The problem of language specific data files is not a computing platform based issue.
+Even as a Python/R used it seems only natural to 
+end the day by saving the results  into  one .Rda or .pkl file. The problem only arises after all<br>
+when the same files have to be read by  someone else who's not invested
+in the platform of your choice. Simple question, what if I'd decided to send a collaborator
+a .Rda/.pkl file, and they use a completely different computing platform which
+is called say... Kidneybeans? Kidneybeans is an established platform in the 
+field of MagicMaking and has a small but established community of researchers
+using it. Should your collaborator bend to the pressure of a larger established 
+community and spend 45 minutes of their time just to load and re-format the data?
+Not fair right?s</p>
+<p>The solution to overcoming cross-language barriers is of course to use 'standard' formats (csv, json, hdf5). 
+This has been suggested multiple times <a href=".">ref1,ref2</a> and despite having read the literature it's only beginning to 
+dawn on me. It does require some effort, to plan and re-organise all the data
+into standard formats instead of being able to 'naturally' dump that list, 
+data frame and image data into one file (or maybe multiple files?..). I guess, the main advantage of 
+saving stuff into universal formats is the data will still remain accessible 
+to future collaborators using <em>any</em> computational platform, and of course 
+the most likely future collaborator as always is <strong>futureyou</strong>!</p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../finish-this-analysis/" rel="prev" title="I need to finish this analysis for a manuscript that's *X* years old (...gasp)">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../first-post/" rel="next" title="first post!!">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+
+
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:thejasvib@gmail.com">Thejasvi Beleyur</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

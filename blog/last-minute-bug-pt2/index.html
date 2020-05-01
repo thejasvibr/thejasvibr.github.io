@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squishing the last-minute bug : part 2 | Thejasvi Beleyur</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="blog/last-minute-bug-pt2/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Thejasvi Beleyur">
+<meta property="og:site_name" content="Thejasvi Beleyur">
+<meta property="og:title" content="Squishing the last-minute bug : part 2">
+<meta property="og:url" content="blog/last-minute-bug-pt2/">
+<meta property="og:description" content="Hello, and welcome back.  If you're arriving here without reading Part 1, you could 
+check it out here. It's not really important, but will provide some background for
+this particular post. In the pre">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-04-26T08:26:00+02:00">
+<meta property="article:tag" content="scientific computing">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="localhost:8000/">
+
+                <span id="blog-title">Thejasvi Beleyur</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../about/">About</a>
+                </li>
+<li>
+<a href="../../research/">Research</a>
+                </li>
+<li>
+<a href="../../publications">Publications</a>
+                </li>
+<li>
+<a href="../../cv">CV</a>
+                </li>
+<li>
+<a href="../../code">Code</a>
+                </li>
+<li>
+<a href="../">Writing</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.md" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Squishing the last-minute bug : part 2</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    Thejasvi Beleyur
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-26T08:26:00+02:00" itemprop="datePublished" title="2020-04-26 08:26">2020-04-26 08:26</time></a>
+            </p>
+                <p class="commentline">
+        
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.md" class="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>Hello, and welcome back.  If you're arriving here without reading Part 1, you could 
+check it out here. It's not really important, but will provide some background for
+this particular post. In the previous  post, I'd talked about how I'd discovered a
+rather important bug in my code a few days before the submission of the first paper
+in my PhD. This post will talk about the how and why of  this bug, and it highlights
+a very important aspect of writing code. How to write and test code that will run 
+well in the unpredictable future of use-cases? <!--TEASER_END-->If this seems jargony right now, don't worry
+I'll delve into it a bit more later!</p>
+<p>The simulations in the paper involved some detailed acoustic calculations that took 
+a fair amount of time to run. I was simulating how a bat's echolocation call would
+propagate th rough space. Much like light, sound can move and reflect in very complex ways. 
+In 'standard' echolocation, the call-emitting bat calls and listens for the echoes coming
+from its ow emitted call. That is, the call from bat A hits a wall and returns as the
+echo of bat A. However, when there are more than one bat, there's another type of echo that 
+bat A could hear. This is the 'secondary echo' resulting from the call of bat B, hitting the 
+wall, and as it travels back to bat B, it also travels to Bat A. Whether bats use these 
+'secondary echoes' to infer object locations is still an unsettled question as far as I know, but the reason we were
+simulating these in the paper was somewhat different. (You can read the paper for more details :P). </p>
+<p>The bug appeared in the code  used to generate the set of all possible secondary echoes. The 
+paper was investigating how groups of bats managed to echolocate together, and whether they 
+could actually hear their own echoes despite all the other loud sounds they would be hearing:
+the loud calls of their neighbours, and the secondary echoes. The secondary echoes in a group
+context arise from the call of a neighbouring bat, hitting another bat, and then finally 
+reaching the 'focal' simulated bat being studied. </p>
+<p>I had decided to represent all the possible secondary echoes the target bat could hear by a set of 'routes'. 
+So, if a call emitted by bat A hit bat B and then finally reached bat C, it would be a tuple with these 
+entries (emitter, target, focals). Generating this is a quick <code>for</code> loop. 
+Since it was a loop to generate all secondary echoes, and not primary echoes (emitter==receiver), I had
+explicitly checked if the emitter and receiver were different in the function. Here is the original implementation</p>
+<pre class="code literal-block"><span></span><code><span class="nv">echo_routes</span> <span class="o">=</span> []
+    <span class="k">for</span> <span class="nv">an_emitter</span> <span class="nv">in</span> <span class="nv">emitters</span>:
+        <span class="k">for</span> <span class="nv">a_target</span> <span class="nv">in</span> <span class="nv">targets</span>:
+            <span class="k">if</span> <span class="nv">not</span> <span class="nv">a_target</span> <span class="nv">is</span> <span class="nv">an_emitter</span>:
+                    <span class="nv">emitter_target_focal</span> <span class="o">=</span> <span class="ss">(</span><span class="nv">an_emitter</span>, <span class="nv">a_target</span>, <span class="nv">focal_bat</span><span class="ss">)</span>
+                    <span class="nv">echo_routes</span>.<span class="nv">append</span><span class="ss">(</span><span class="nv">emitter_target_focal</span><span class="ss">)</span>
+    <span class="k">return</span><span class="ss">(</span><span class="nv">echo_routes</span><span class="ss">)</span> 
+</code></pre>
+
+
+<p>For context, only the secondary echoes heard by one bat, the 'focal' bat was considered. So, it was a loop
+which varied across all the emitting bat, the targets (other bats). In this particular case of course, I'd 
+removed the focal bat from the possible set of target and call emitting bats. If you've been doing Python 
+for some time, you might now realise where the bug was if I were to tell you that the <code>emitters</code> and 
+<code>targets</code> were lists with integers to represent each of the bats in the group. </p>
+<p>This formulation works pretty well, and I had actually done calculations to check that the output matched what
+was expected by a simple calculation. If there are 10 bats in a group, the number of expected secondary echoes is</p>
+<p>\[N-1 \times \:N-2\]</p>
+<p>So, if I'd tested it, and this patch of code still lead to buggy behaviour, why was this? Well it was because things
+worked well until a point, and they broke silently. I've written before about things that break silently, and why 
+it's (very, very) horrible and unpleasant. This is not a new concept, and has been discussed by the whole industry
+of software engineering! Back to the bug though, where did it stop working?</p>
+<p>Try this in Python, and you'll see where things go wrong. 
+(*if you  don't have Python already installed, you could try out one of the many  online consoles , eg. <a href="https://repl.it/languages/Python3">here</a>)</p>
+<pre class="code literal-block"><span></span><code><span class="nv">one_value</span> <span class="o">=</span> <span class="mi">20</span>
+<span class="nv">another_value</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="nv">def</span> <span class="nv">report_comparison</span><span class="ss">(</span><span class="nv">X</span>,<span class="nv">Y</span><span class="ss">)</span>:
+    <span class="s1">'''</span>
+    <span class="nv">Checks</span> <span class="k">if</span> <span class="nv">X</span> <span class="nv">and</span> <span class="nv">Y</span> <span class="nv">are</span> <span class="nv">the</span> <span class="nv">same</span>, <span class="nv">and</span> <span class="nv">prints</span> <span class="nv">out</span> 
+    <span class="nv">the</span> <span class="nb">result</span>.
+    <span class="s1">'''</span>
+
+    <span class="k">if</span> <span class="nv">one_value</span> <span class="nv">is</span> <span class="nv">another_value</span>:
+        <span class="nv">print</span><span class="ss">(</span><span class="s1">'</span><span class="s">The two values are the same</span><span class="s1">'</span><span class="ss">)</span>
+    <span class="k">else</span>:
+        <span class="nv">print</span><span class="ss">(</span><span class="s1">'</span><span class="s">Different values!</span><span class="s1">'</span><span class="ss">)</span>
+
+<span class="nv">report_comparison</span><span class="ss">(</span><span class="nv">one_value</span>, <span class="nv">another_value</span><span class="ss">)</span>
+</code></pre>
+
+
+<p>This makes sense right? Okay, now try, this</p>
+<pre class="code literal-block"><span></span><code><span class="n">one_value</span> <span class="o">=</span> <span class="mi">200</span>
+<span class="n">another_value</span> <span class="o">=</span> <span class="mi">200</span>
+
+<span class="n">report_comparison</span><span class="p">(</span><span class="n">one_value</span><span class="p">,</span> <span class="n">another_value</span><span class="p">)</span>
+</code></pre>
+
+
+<p>Works as expected right? And then try this,</p>
+<pre class="code literal-block"><span></span><code><span class="n">one_value</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="n">another_value</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="n">report_comparison</span><span class="p">(</span><span class="n">one_value</span><span class="p">,</span> <span class="n">another_value</span><span class="p">)</span>
+</code></pre>
+
+
+<p>This <em>doesn't</em> make any sense right? Yeah, much to my  shock I realised this seemingly straightforward comparison had caused this 
+giant bug. </p>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/scientific-computing/" rel="tag">scientific computing</a></li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+
+
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:thejasvib@gmail.com">Thejasvi Beleyur</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

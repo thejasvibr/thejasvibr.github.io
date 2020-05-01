@@ -9,7 +9,7 @@
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../rss.xml">
-<link rel="canonical" href="https://example.com/blog/">
+<link rel="canonical" href="blog/">
 <link rel="next" href="index-1.html" type="text/html">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
 </head>
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="https://example.com/">
+            <a class="navbar-brand" href="localhost:8000/">
 
                 <span id="blog-title">Thejasvi Beleyur</span>
             </a>
@@ -37,6 +37,18 @@
             <ul class="nav navbar-nav">
 <li>
 <a href="../about/">About</a>
+                </li>
+<li>
+<a href="../research/">Research</a>
+                </li>
+<li>
+<a href="../publications">Publications</a>
+                </li>
+<li>
+<a href="../cv">CV</a>
+                </li>
+<li>
+<a href="../code">Code</a>
                 </li>
 <li class="active">
 <a href=".">Writing <span class="sr-only">(active)</span></a>
@@ -71,25 +83,9 @@
             </span></p>
             <p class="dateline">
             <a href="first-post/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-09T09:58:43+02:00" itemprop="datePublished" title="2020-04-09 09:58">2020-04-09 09:58</time></a>
-            </p>
-                <p class="commentline">
-        
-
-
-        </p>
-</div>
-    </header><div class="p-summary entry-summary">
-    <p>## Wooooohaaa!!! __wooohaa__</p>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="universal_data_formats/" class="u-url">Universal data formats</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Thejasvi Beleyur
-            </span></p>
-            <p class="dateline">
-            <a href="universal_data_formats/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-09T09:27:00+02:00" itemprop="datePublished" title="2020-04-09 09:27">2020-04-09 09:27</time></a>
+            <time class="published dt-published" datetime="2020-04-09T09:58:43+02:00" itemprop="datePublished" title="2020-04-09 09:58">2020-04-09 09:58</time><span class="updated"> (updated
+                    <time class="dt-updated" datetime="2020-04-23T08:27:00+02:00" itemprop="dateUpdated" title="2020-04-23 08:27">2020-04-23 08:27</time>)</span>
+            </a>
             </p>
                 <p class="commentline">
         
@@ -99,48 +95,49 @@
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<p>I'm still trying to get through an old but (I think) cool analysis for a manuscript 
-that's over five years in the making now. In general, the code in the manuscript
-itself reflects the need for mutiple coding platforms and how each of  them 
-bring its own superpowers with it. All of the image analysis results in the project
-has been done in MATLAB. The stats and analyses have been beautifully documented
-in R with Markdown notebooks. A collaborator did some additional analyses in 
-MATLAB recently and sent over some new results. </p>
-<p>It would have all been fine, and I probably  wouldn't have even written the post
-if I was still using the same laptop I had when the project started. Now, however, 
-even though the laptop is  the same, it's gone through a couple of OS changes 
-and currenly has  R and Python installed in it -  same cover different contents. Getting some .mat files and having to open
-them to analyse them is not impossible. I'm very thankful for cross-language packages like 
-<a href="https://cran.r-project.org/web/packages/R.matlab/index.html">R.matlab</a> and the inbuilt <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html">scipy.io.loadmat</a> for existing, and am able to load the data without problem. </p>
-<p>However, even the act of having to find a specialised package to load a dataset
-saved in a platform-specific format made me re-think how I would save my data in the
-future. It's not a computing platform based platform, it seems only natural to 
-end the day by saving the results  into  one .Rda or .pkl file. The issue is<br>
-when these same files have to be read by  someone else who's not invested
-in the same platform. Simple question, what if I'd decided to send a collaborator
-a .Rda/.pkl file, and they use a completely different computing platform which
-is called say... Kidneybeans? Kidneybeans is an established platform in the 
-field of MagicMaking and has a small but established community of researchers
-using it. Should your collaborator bend to the pressure of a larger established 
-community and spend 45 minutes of their time just to load and re-format the data?
-Not fair right?</p>
-<p>The solution to overcoming cross-language barriers is of course to use 'standard' formats (csv, json, hdf5). 
-This has been suggested multiple times <a href="universal_data_formats/">ref1,ref2</a> and it's only beginning to 
-dawn on me. It does require some effort, to plan and re-organise all the data
-into standard formats instead of being able to 'naturally' dump that list, 
-data frame and 3-channel image array into one file. I guess, the main advantage of 
-saving stuff into universal formats is the data will still remain accessible 
-to future collaborators using <em>any</em> computational platform, and of course 
-the most likely future collaborator as always is <strong>futureyou</strong>!</p>
+<h5>Hello!</h5>
+<p>Hello, and welcome to the first post of my blog. This is where I'm planning to write about science and scientific computing. This is a somewhat informal venue
+to discuss some ideas, </p>
+<p class="more"><a href="first-post/">Read more…</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="keeping_track_of_old/" class="u-url">I need to finish this analysis for a manuscript that's *X* years old (...gasp)</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="2_universal_data_formats/" class="u-url">Universal data formats</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Thejasvi Beleyur
             </span></p>
             <p class="dateline">
-            <a href="keeping_track_of_old/" rel="bookmark">
+            <a href="2_universal_data_formats/" rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-09T09:27:00+02:00" itemprop="datePublished" title="2020-04-09 09:27">2020-04-09 09:27</time><span class="updated"> (updated
+                    <time class="dt-updated" datetime="2020-04-23T08:53:00+02:00" itemprop="dateUpdated" title="2020-04-23 08:53">2020-04-23 08:53</time>)</span>
+            </a>
+            </p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>I'm still trying to get through an old but (<em>I think</em>) cool analysis for a manuscript 
+that's over five years in the making now. The code in the manuscript
+itself reflects the need for mutiple coding platforms and how each of them 
+bring its own superpowers with it. All of the image analysis results in the project
+has been done in MATLAB. The stats and analyses have been executed and documented
+in R with Markdown notebooks. A collaborator did some additional analyses in 
+MATLAB recently and sent over some new results. </p>
+<p>It would have all been fine, and I probably  wouldn't have even written the post if </p>
+<p class="more"><a href="2_universal_data_formats/">Read more…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="finish-this-analysis/" class="u-url">I need to finish this analysis for a manuscript that's *X* years old (...gasp)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Thejasvi Beleyur
+            </span></p>
+            <p class="dateline">
+            <a href="finish-this-analysis/" rel="bookmark">
             <time class="published dt-published" datetime="2020-04-08T08:26:00+02:00" itemprop="datePublished" title="2020-04-08 08:26">2020-04-08 08:26</time></a>
             </p>
                 <p class="commentline">
@@ -151,23 +148,24 @@ the most likely future collaborator as always is <strong>futureyou</strong>!</p>
 </div>
     </header><div class="p-summary entry-summary">
     <div>
+<p>Updated : 2020-04-23 08:53:00
+Category: data analysis</p>
 <p>With the social distancing measures implemented thanks to the COVID19 pandemic, I saw a whole wave of memes about academics thinking they'd get more productive. 
 Now, that there're no more unnecessary meetings, teaching, or random interruptions from the workplace, it'd be great to <em>finally</em> get back to doing <strong>SCAAAAAAINCE</strong>. 
 I myself, wasn't quite sure, as an end phase PhD student working at a mainly research institute, I can't quite complain about any of these things, although I will say I am beginning to enjoy the luxury and convenience of waking up, getting ready, and heading to the desk a few metres away. </p>
-<p>One of the things I've been trying to get done is make some new plots and add some data analyses from a project I was part of back in 2015. Yes, the project is now almost six years old. The manuscript has gone through one rejection, been revamped a bit and now it's soon to be submitted at its second journal. I actually began working in full steam on the analysis about a month ago, and made a decent amount of progress getting back to R and writing up  a new Markdown notebook to document the
-analysis as I was doing it, and that's when I began to realise how !@#$'ing hard it is to keep track of experiments, data and analyses that happened anything more than a few months ago. </p>
-<p>Old code, that's not tested or documented well can be a nightmare. Old experimental analyses that're semi-documented and with a bunch of intermediate files lying aroud everywhere - that's just torture. And yes, I will admit that this always happens whenever I'm working with my (not-so) favourite collaborator, past me. Past me has a habit of coming up  with cool ideas, and then putting them into the same Rmd notebook as the final figures for journal submission. My other favourite is past me does this irritating thing of having done a bunch of very cool stuff about 75% of the way, but then forgetting to say what else needs to be done in case someone'd like to continue the work forward. The burden of having to figure it all out afresh each time, of course, means there's a growing sense of reluctance each time.</p>
-<p>This is the point where I began to think about what could be done to improve the situation. I have heard from my colleagues who say they always have a fixed folder structure for instance, or that they keep all the 'old' stuff in one folder and the manuscript-worthy stuff in another. I guess there is a lot of room for  personal choice. However, the one thing with personal choice is that it means there are some real bad ideas that're not propagated, but even worse, there're some great ideas that don't reach out  too! One of  the things I picked  up from following conventions (eg. coding and documentation conventions) is the power and discipline they bring to the way you  write code. I have this nagging feeling there must be a field of research or industry where a nice set of protocols must have been formulated about  how to organise the code, raw data and processed data properly. I'd now venture to say, it <strong>must</strong> be out there...time to start looking properly!!</p>
+<p class="more"><a href="finish-this-analysis/">Read more…</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="how_much_do_you_really_understand/" class="u-url">So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="4_how_much_do_you_really_understand/" class="u-url">So, how much do you really understand about (cool) topic X? (also, it's not you who's dumb, find the right source/teacher)</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Thejasvi Beleyur
             </span></p>
             <p class="dateline">
-            <a href="how_much_do_you_really_understand/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-04-05T07:43:00+02:00" itemprop="datePublished" title="2020-04-05 07:43">2020-04-05 07:43</time></a>
+            <a href="4_how_much_do_you_really_understand/" rel="bookmark">
+            <time class="published dt-published" datetime="2020-04-05T07:43:00+02:00" itemprop="datePublished" title="2020-04-05 07:43">2020-04-05 07:43</time><span class="updated"> (updated
+                    <time class="dt-updated" datetime="2020-04-24T09:30:00+02:00" itemprop="dateUpdated" title="2020-04-24 09:30">2020-04-24 09:30</time>)</span>
+            </a>
             </p>
                 <p class="commentline">
         
@@ -178,12 +176,11 @@ analysis as I was doing it, and that's when I began to realise how !@#$'ing hard
     </header><div class="p-summary entry-summary">
     <div>
 <p>Working in academia can be quite stressful. Handling the uncertainty  of where you'll be in the next few years, and whether you're competent enough at all
-(impostor syndrome). Even once you assume you've understood something, five minutes later another thing'll come up to show that the mental model you had 
-was actually rather wrong. It can be very frustrating to put in a lot of effort, assume success, and then back to square one.</p>
-<p class="more"><a href="how_much_do_you_really_understand/">Read more…</a></p>
+(impostor syndrome) are questions that're always hanging around. Even once you think you've understood something, five minutes later another thing'll come up to show that the mental model you had was actually <em>rather</em> wrong. It can be very frustrating to put in a lot of effort, think of it as progress, and then back to square one.</p>
+<p class="more"><a href="4_how_much_do_you_really_understand/">Read more…</a></p>
 </div>
     </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="working_with_documentation_on_the_go/" class="u-url">On the advantages of simultaneous code and docs</a></h1>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="working_with_documentation_on_the_go/" class="u-url">Simultaneous code and docs: a safety net for your project</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Thejasvi Beleyur
@@ -200,57 +197,12 @@ was actually rather wrong. It can be very frustrating to put in a lot of effort,
 </div>
     </header><div class="p-summary entry-summary">
     <div>
-<p>In the past I always used to either neglect documenting my code properly or ignore it completely. The focus was to get the job done and 
-to get out. Nowadays, however, things have changed a <em>lot</em>, and I really only have the <a href="working_with_documentation_on_the_go/">Sphinx</a> project to blame :P. Documenting
-your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is future you. I've thanked 
-pastme a zillion times by now because the current project I'm working on has grown to be a more than a few modules, and I was 
-quite afraid of not being able to keep track of stuff. However, this time I really decided to write <a href="working_with_documentation_on_the_go/">NumPy</a> style docstrings 
-on all functions that are more than a few lines, and with a little bit of Sphinx magic, and some <a href="working_with_documentation_on_the_go/">ReadTheDocs</a> hosting, the
-result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something beautiful.  It kind of 
-reminds me of  the first time I used LaTex to generate a manuscript. </p>
-<p>The problem I tend to have with a code base that gets large enough is that I forget which functions do what and their input formats. 
-Even though in the beginning there were only about five functions used commonly, over time, it becomes, seven, ten, fifteen, and that's 
-way too many to keep in mind, even though I'm working with the code on a daily basis. This is where having consistent documentation helps 
-like crazy at multiple places:</p>
-<pre class="code literal-block"><span></span><code><span class="mi">1</span>. <span class="nv">In</span> <span class="nv">the</span> <span class="nv">console</span><span class="o">/</span><span class="nv">command</span> <span class="nv">line</span>: <span class="nv">So</span> <span class="nv">you</span><span class="s1">'</span><span class="s">ve begun your coding session, and now you  want to do &lt;&lt;*coolthing*&gt;&gt;, with &lt;&lt;*amazefunction*&gt;&gt;, but, aargh,</span>
-</code></pre>
-
-
-<p>do you have to specify the <em>amazelevel</em> or is it a default, and don't you vaguely remember that <em>amazelevel</em> actually is an input for &lt;&lt;<em>create_amazingness</em>&gt;&gt;?
-So, if past you had done a good job of it, when you  type in <code>help(amazefunction)</code>, you'd get something like:</p>
-<pre class="code literal-block"><span></span><code><span class="n">help</span><span class="p">(</span><span class="n">amazefunction</span><span class="p">)</span>
-<span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
-
-<span class="n">amazefunction</span><span class="p">(</span><span class="n">amaze_type</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-</code></pre>
-
-
-<p>Disappointing?..yeah. Now however, imagine you'd actually invested a minute extra while actually writing this function, and thus saved future you a few minutes. 
-This is what the output from <code>help(amazefunction)</code> could have looked like!</p>
-<pre class="code literal-block"><span></span><code><span class="n">Help</span> <span class="k">on</span> <span class="k">function</span> <span class="n">amazefunction</span> <span class="k">in</span> <span class="n">module</span> <span class="n">__main__</span><span class="p">:</span>
-
-<span class="n">amazefunction</span><span class="p">(</span><span class="n">amaze_type</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-    <span class="n">Creates</span> <span class="n">an</span> <span class="n">amazing</span> <span class="n">thing</span><span class="p">.</span> 
-
-    <span class="k">Parameters</span>
-    <span class="c1">----------</span>
-    <span class="n">amaze_type</span> <span class="p">:</span> <span class="n">str</span>
-        <span class="n">The</span> <span class="k">type</span> <span class="k">of</span> <span class="n">amazing</span> <span class="k">object</span> <span class="k">to</span> <span class="n">be</span> <span class="n">created</span><span class="p">.</span>
-        <span class="n">Possible</span> <span class="n">value</span> <span class="p">[</span><span class="s1">'unicorn'</span><span class="p">,</span> <span class="s1">'rakshasa'</span><span class="p">,</span> <span class="s1">'wolpertinger'</span><span class="p">]</span>
-
-    <span class="k">Returns</span>
-    <span class="c1">-------</span>
-    <span class="n">amazingness</span> <span class="p">:</span> <span class="k">dictionary</span>
-        <span class="n">The</span> <span class="n">amazingness</span> <span class="k">dictionary</span> <span class="n">has</span> <span class="n">keys</span>
-        <span class="s1">'height'</span><span class="p">,</span> <span class="s1">'weight'</span><span class="p">,</span> <span class="s1">'powers'</span> <span class="k">and</span> <span class="n">other</span>  <span class="n">optional</span>
-        <span class="n">descriptive</span> <span class="n">features</span> <span class="n">controlled</span> <span class="k">by</span> <span class="n">optional</span> 
-        <span class="n">arguments</span><span class="p">.</span>
-
-    <span class="n">See</span> <span class="n">Also</span>
-    <span class="c1">--------</span>
-    <span class="n">make_amazing_object</span>
-    <span class="n">check_amaze_type</span>
-</code></pre>
+<p>In the past I always used to either badly document my code properly or ignore it completely. The focus was to get the job done and 
+to get out. Nowadays, however, things have changed a <em>lot</em>, and I really only have the <a href="http://www.sphinx-doc.org/en/stable/">Sphinx</a> project to blame :P. Documenting
+your code as it's being written helps in a bunch of ways, and the person who benefits from it the most is <em>futureyou</em>. I've thanked 
+<em>pastme</em> a zillion times by now because the current project I'm working on has grown to be a more than a few files, and I was 
+quite afraid of not being able to keep track of stuff. However, this time I really decided to write <a href="https://numpydoc.readthedocs.io/en/latest/format.html">NumPy</a> style docstrings on all functions that are more than a two lines, and with a little bit of Sphinx magic, and some <a href="https://docs.readthedocs.io/en/stable/">ReadTheDocs</a> hosting, the result is a beautiful webpage that  I keep visiting myself just because it's rewarding seeing something nice.</p>
+<p class="more"><a href="working_with_documentation_on_the_go/">Read more…</a></p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="thought_on_releasing_a_package/" class="u-url">To package or not to package?</a></h1>
@@ -279,11 +231,7 @@ But why don't I do it yet? Right now, as an end-phase graduate student, I guess 
 have to do it again. The effort of trying to create a common framework and plan all the basic experimenta/computational tasks to be implemented doesn't pay  off. 
 Writing a package, I realise  is as much about the single tiny  functions, as it is about the broad common concept and the sufficiently detailed documentation 
 aroud it. If  I'm the only  one who's  going to use  it,  and am not even sure when - it's not worth the time :P. </p>
-<p>Butt, there are cases when I think the code  I've been using regularly is worth putting a decent amount of  thought into and pushing it all the way to a publicly 
-available package. Initially  I used to think it's worth putting the effort of making a whole  package and releasing it for public use only if there was a whole community of researchers interested in them. However, this thinking changed when I had the opportunity to  meet Kalle A{dot}stroem, professor at the University of Lund. His group has been developing a package  to automatically calculate microphone positions from sound playbacks. I had approached him in order to check if the package they'd developed could  be used to infer the positions of my microphone arrays I was using to track bats. The package worked for my data, and we thus began of developing an integrated experimental + software workflow for field biologists to  use. While talking about who might be interested in something like this, Kalle mentioned it'd be very cool  even if just two-three labs would  be genuinely  interested in using this whole workflow. This sounded like a very small number to me, two-three labs could basically just consist of four-six people (one PI + one grad student), and back  then I began wondering if this was too niche?</p>
-<p>Nowadays, however, I've realised how niche academic research can be. While we may work on a day-to-day basis with a common set of assummptions and follow the same conceptual principles, each of us has slightly different use cases. Even when one other person benefits from the use of a released package, it should  be considered a success. </p>
-<p>In some sense, the effect of publishing a package is a bit  more tangible  than publishing a paper in a journal. A package  is something that can be used on a day-to-day basis, unlike a paper which is a string of ideas put together. So should you publish your package or  not? Well, the rule of thumb I'm beginning to develop is essentially, if  you  think there's at least one more person who might find it interesting - do it. And remember, the most likely person who  will  find it interesting to use is this familiar-yet-unfamiliar stranger - future  you. </p>
-<p>REFS</p>
+<p class="more"><a href="thought_on_releasing_a_package/">Read more…</a></p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="pep_talk/" class="u-url">Better Science through good code</a></h1>
@@ -392,34 +340,8 @@ audience of its own utility and accuracy.</p>
 <p>Every now and then at a conference, someone might ask me what programming language all this stuff was done in. 
 When I say Python, there's typically two reactions. One typical response is 'That's cool, I too use Python, which libraries...'
 , and as you  can imagine, the conversation takes a very detailed trajectory. The other typical response is 'I see, yeah, everyone's using Python nowadays. My supervisor/whole lab uses <em><insert sixletterword></insert></em>, and so I'm kind of stuck at the moment'. My response to this statement is to strongly  urge the person to switch. Now is the best time to switch, and save yourself  time later etc. I  probably(definitely) end up sounding like a weird mix of concerned parent and preacher. </p>
-<p>Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. Good code remains good code irrespective of the language of choice (and the  bad code..).
-The language of choice, however, strongly facilitates the kinds of techniques and attitudes to coding (which is a post for another time). </p>
-<p>So, why should you switch to Python/<em><open-source language of your choise></open-source></em> as early as possible?<br>
-Three strong reasons:</p>
-<h6>*  1) It's free for me, my collaborators, and anyone else in the world to download and use</h6>
-<h6>*  2) The supporting packages I  need to do your science are typically also free to download and use</h6>
-<h6>*  3) I can write a piece of code, share it, and <em>anyone</em> can use  it!</h6>
-<h5>It's free (a la MJ, for me, and for you and the entire human race)</h5>
-<p>The fact that installing an open-source computing platform makes it extremely portable. 
-I can download Python on my personal laptop, go to a field site in another part of the world and download it on a Raspberry Pi there! Working with commercially licensed platforms can be a genuine pain. You do not want to waste precious research hours going online and trying to get a license validated and authorised each time you switch locations, devices or labs. Moreover, most licenses are given through the research institution/lab using them - and not to individuals. What happens when you leave, what if you'd actually like to work with the latest release of the language, does that need an extra license?
-(Here I complain from personal experience)</p>
-<h4>Open your eyes, and see - there's a  <em>rich</em> scientific package ecosystem around you!</h4>
-<p>One common comment I've heard is 'oh, but there's no good packages for <em><insert technique x></insert></em>'. Whenever someone says that, it must taken with a big handful of salt. 
-Statements like  'oh, but <em><insertsixletterword></insertsixletterword></em> has such cool packages for audio input-output and signal processing' are IMHO a result of misunderstanding what to expect from a language's package ecosystem. Even established scientists have said to me,  'Ah, Python, yeah - there aren't any good packages to do X'. Since all of us work in niche topics, we will have niche requirements. 
-Not even proprietary computing languages have niche packages do to specific things like processing black-hole data, or detecting bat calls in recordings.
-What any computing platform can provide, is an ecosystem to handle the variety of tasks needed on a day-to-day basis (data I/O, instrument interfacing, data pipelines, statistics, visualisation). 
-I do not realistically expect or require my computing language to have inbuilt packages to solve my <em>niche</em> scientific needs. I can only expect that the bricks are 
-available! </p>
-<p>So..be warned, Python's ecosystem is pretty damn good, and it's only getting better with time. In the recent past, I've been using <em>only</em> Python, even for experimental work involving speaker playbacks, microphone recordings, signal analysis, visualisation, statistics $^{1}$ and the cherry on the cake - writing it all in pretty <a href="why_python/">Jupyter</a> noteboooks. 
-The open package ecosystem means I essentially have a wide variety of packages to learn and try new techniques with time.
-Contrast this to constantly thinking about which packages you can actually afford ('..I'd love to try out machine learning, but it costs <em><insert x digit number>, but would also need the </insert></em>other cool package<em> along with that</em>'). </p>
-<h4>Write, share, repeat</h4>
-<p>I write rather niche code most of the time. There are times when I will take the effort of putting it up online 
-and sharing it : 1) as part of a paper submission (as a DOI on a public repository) 2) when I think the code might be of interest to others, then I make it into a Python package and release it. 
-I can confidently put up my code somewhere knowing fully well that <em>anyone</em> who would like to try it can step into it without thinking twice about the costs - and keep up withh any required upgrades or language version changes. 
-This may not be such an issue when you work in a rather established institute/university. I'm constantly thus surprised when I see introductory scientific computing courses
-being done with proprietary computing languages.</p>
-<p>$^{1}$ <em>The packages I use for these tasks are: <a href="why_python/">scipy</a>, <a href="why_python/">sounddevice</a>, <a href="why_python/">pandas</a>, <a href="why_python/">matplotlib</a>, <a href="why_python/">statsmodels</a></em></p>
+<p>Before I begin talking about the benefits of swithching to Python, I will make it clear upfront that the computer language maketh not the science. </p>
+<p class="more"><a href="why_python/">Read more…</a></p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="error_msgs/" class="u-url">What you *could* do, but you shouldn't</a></h1>

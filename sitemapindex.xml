@@ -6,43 +6,43 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://example.com/categories/cat_data-analysis.xml</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_data-analysis.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_python-coding-scientific-computing.xml</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-coding-scientific-computing.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_python-coding-writing.xml</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-coding-writing.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_python-reproducible-science.xml</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_python-reproducible-science.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_python-scientific-computing.xml</loc>
-  <lastmod>2020-04-17T07:52:00Z</lastmod>
+  <loc>8000/categories/cat_python-scientific-computing.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_science.xml</loc>
-  <lastmod>2020-04-17T07:52:00Z</lastmod>
+  <loc>8000/categories/cat_science.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/categories/cat_scientific-computing.xml</loc>
-  <lastmod>2020-04-11T06:55:00Z</lastmod>
+  <loc>8000/categories/cat_scientific-computing.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/galleries/rss.xml</loc>
-  <lastmod>2020-04-16T05:44:00Z</lastmod>
+  <loc>8000/galleries/rss.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/rss.xml</loc>
-  <lastmod>2020-04-17T07:52:00Z</lastmod>
+  <loc>8000/rss.xml</loc>
+  <lastmod>2020-05-01T07:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://example.com/sitemap.xml</loc>
-  <lastmod>2020-04-17T07:52:00Z</lastmod>
+  <loc>8000/sitemap.xml</loc>
+  <lastmod>2020-05-01T08:25:00Z</lastmod>
  </sitemap>
 </sitemapindex>
