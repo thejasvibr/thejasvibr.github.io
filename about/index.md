@@ -19,8 +19,7 @@ science and scientific computing.
 ### *Updates*
 * I'm currently heading on the path to finishing up my PhD, and am looking for potential labs to do a post-doc. I'm particularly interested in projects that involve a mix 
 of computational and experimental components to it with sensory biology and image/signal analysis involved. I'd also be interested to talk about the possibility of continuing
-work on ahigh spatiotemporal dataset of echolocating bat groups I collected  during my PhD. Visit [this page](../usho-visho) for more details on why I think this dataset is cool
-and unique! 
+work on a high spatio-temporal resolution dataset of echolocating bat groups I collected  during my PhD. Visit [this page](../usho-visho) for more details on why I think this dataset is cool and unique! 
 
 
 
