@@ -24,7 +24,7 @@ and even display impressive feats of group flight as they emerge in the evening
 or even within the cave itself. 
 
 .. image:: ../images/orlova_chuka.gif
-   :width: 49 %
+   :height: 15 pc
 
 My research seeks to answer how they manage to fly despite the tricky 
 sensory conditions. I use computational sensory modelling along with
@@ -45,9 +45,9 @@ spiders that are positively social. Two social spiders  in a box will actually e
 they would be able to alone. 
 
 .. image:: ../images/stegos_on_web.gif
-   :width: 49 %
+   :height: 15 pc
 .. image:: ../images/stego_ppt.png
-   :width: 49 %
+   :height: 15 pc
 
 Despite their coolness as spiders, they have been relatively under-studied. For
 instance, even though they live in groups, it wasn't quite clear if social 

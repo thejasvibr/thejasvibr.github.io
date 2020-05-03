@@ -6,43 +6,43 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>8000/categories/cat_data-analysis.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_data-analysis.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_python-coding-scientific-computing.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_python-coding-scientific-computing.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_python-coding-writing.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_python-coding-writing.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_python-reproducible-science.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_python-reproducible-science.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_python-scientific-computing.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_python-scientific-computing.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_science.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_science.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/categories/cat_scientific-computing.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/categories/cat_scientific-computing.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/galleries/rss.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/galleries/rss.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/rss.xml</loc>
-  <lastmod>2020-05-01T07:59:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/rss.xml</loc>
+  <lastmod>2020-05-03T20:28:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>8000/sitemap.xml</loc>
-  <lastmod>2020-05-01T08:25:00Z</lastmod>
+  <loc>https://thejasvibr.github.io/sitemap.xml</loc>
+  <lastmod>2020-05-03T20:41:00Z</lastmod>
  </sitemap>
 </sitemapindex>

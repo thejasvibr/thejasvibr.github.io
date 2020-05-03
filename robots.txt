@@ -1,4 +1,4 @@
-Sitemap: sitemapindex.xml
+Sitemap: https://thejasvibr.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: 
+Host: thejasvibr.github.io
