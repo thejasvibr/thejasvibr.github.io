@@ -25,7 +25,7 @@ SITE_URL = "https://thejasvibr.github.io/"
 # If not set, defaults to SITE_URL
 BASE_URL = SITE_URL
 BLOG_EMAIL = "thejasvib@gmail.com"
-BLOG_DESCRIPTION = "Re-search, animals, computing"  # (translatable)
+BLOG_DESCRIPTION = "Animals, behaviour, coding"  # (translatable)
 
 # Nikola is multilingual!
 #
