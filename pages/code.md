@@ -19,4 +19,4 @@ In the context of quantifying horseshoe bat calls I've been working on a Python 
 
 * ### Android apps with Kivy
 Smartphones are everywhere and I've always been curious to start playing around with them, and may be use them for a research project at some point. Using the [Kivy](https://kivy.org/#home)
-Python package I've recently been playing around and making small apps that use the various sensors in smartphones! Check out these repos : [screenbash](https://github.com/thejasvibr/screenbash), leftorright
+Python package I've recently been playing around and making small (and rather trivial) apps. Check out these repos and try them out yourself: [screenbash](https://github.com/thejasvibr/screenbash), [youscrolled](https://github.com/thejasvibr/youscrolled).

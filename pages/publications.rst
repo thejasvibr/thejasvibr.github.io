@@ -8,9 +8,9 @@
 ~~~~
 
 .. image:: ../images/modelling_schematic.png
-   :width: 25 %
+   :height: 10 pc
 .. image:: ../images/icassp_cave_exxpt.png
-   :width: 25 %
+   :height: 10 pc
 
 * **Beleyur, T.**, & Goerlitz, H. R. (2019). Modeling active sensing reveals echo detection even in large groups of bats. Proceedings of the National Academy of Sciences, 116(52), 26662-26668. 
 
@@ -21,7 +21,7 @@
 ~~~~
 
 .. youtube:: AxDdBvLjSMQ
-   :width: 49 %
+   :height: 250 px
   
 * Kamburov, A., Goerlitz, H. R., **Beleyur, T.**, 2018, Geospatial modelling inside the "Orlova Chuka" cave in Bulgaria, *non-peer reviewed conference contribution*,  XXVIII International Symposium on Modern Technologies and Professional Practise in Geodesy and related fields
 
