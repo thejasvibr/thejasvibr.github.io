@@ -7,7 +7,7 @@ link:
 description: 
 type: text
 
-![](../images/DC6A5930_w.JPG){height=300px}||![](../images/orlova_chuka.gif){height=300}
+![](../images/DC6A5930_w.JPG){height=300px}![](../images/orlova_chuka.gif){height=300}
 
 
 As part of my PhD looking at how bats manage to [echolocate in groups](../research), I collected a multichannel audio-video dataset consisting of between 12-22 microphones and three thermal cameras.
@@ -51,7 +51,7 @@ receive.
 
 * ### Frame synchronised and 3D calibrated video recordings with 3 thermal cameras
 
-	![](../images/K1_wand.gif){height=300px}||![](../images/K3_wand.gif){height=300px}
+	![](../images/K1_wand.gif){height=300px}![](../images/K3_wand.gif){height=300px}
 
 	*Note: The 2 GIFS here are sometimes displayed with a bit of delay - the actual video data is frame synchronised!*
 
@@ -60,7 +60,7 @@ receive.
 
 * ### Multi-channel audio recordings 
 
-	![](../images/DSC06067.JPG){height=200}||![](../images/DSC05051.JPG){height=200px}||![](../images/DSC06121.JPG){height=200px}
+	![](../images/DSC06067.JPG){height=200px}![](../images/DSC05051.JPG){height=200px}![](../images/DSC06121.JPG){height=200px}
 	
 	I started out with 12 microphones and had 22 mics by the end of the field season! All audio was recorded by a combination of Fireface USB devices 
 	running at 192 kHz. I used only one array with four microphones (the inverted T-shaped thing visible in the GIF on top) and the rest of the microphones
@@ -79,24 +79,27 @@ However, even with three or more bats, the calls begin to arrive with near or co
 
 ## Supporting datasets/methods around Uschichka:
 * LiDAR scans of the cave
-The whole recording volume and a sizeable area of the cave around it has been scanned with a LiDAR scanner by [Asparuh Kamburov](https://www.linkedin.com/in/asparuh-kamburov-baa58525/?originalSubdomain=bg).
-The details of the scanning and data collection are described in our [2018 report](../publications). The dataset serves as a nice basis to investigate
-how bats flying within the volume make their sensorimotor decisions. Through tracking we can estimate when the bats emitted their calls, and the LiDAR scans allow
-a calculation of the time of arrival and intensity of the sounds. Some cool 'room acoustics' could be done using basic ray tracing perhaps to simulate sound propagation (with a package like
-[pyroomacoustics](https://pyroomacoustics.readthedocs.io/en/pypi-release/index.html)?
+
+    The whole recording volume and a sizeable area of the cave around it has been scanned with a LiDAR scanner by [Asparuh Kamburov](https://www.linkedin.com/in/asparuh-kamburov-baa58525/?originalSubdomain=bg).
+    The details of the scanning and data collection are described in our [2018 report](../publications). The dataset serves as a nice basis to investigate
+    how bats flying within the volume make their sensorimotor decisions. Through tracking we can estimate when the bats emitted their calls, and the LiDAR scans allow
+    a calculation of the time of arrival and intensity of the sounds. Some cool 'room acoustics' could be done using basic ray tracing perhaps to simulate sound propagation (with a package like
+    [pyroomacoustics](https://pyroomacoustics.readthedocs.io/en/pypi-release/index.html)?
 
 * Automatic microphone position calibration
-Working with many microphones *not* on arrays means constantly having to measure their positions and inter-mic distances. While this is feasible for 
-a few mics, the number of measurements to be made with more mice increases horribly fast. While looking for automated solutions to this problem I reached out
-to [Kalle Åström](http://www.maths.lu.se/staff/kalleastrom/) and with example audio playbacks made in the cave, we were able to show the automatic inference of
-mic positions just from playbacks. If you haven't worked with acoustic localisation this may seem uninteresting, but if you have - you'll be delighted hearing that
-such things are in development :P!. A part of  the Uschichka dataset was used for the paper published on this method. See [Batstone et al 2019](../publications) 
-for more details. 
+
+    Working with many microphones *not* on arrays means constantly having to measure their positions and inter-mic distances. While this is feasible for 
+    a few mics, the number of measurements to be made with more mice increases horribly fast. While looking for automated solutions to this problem I reached out
+    to [Kalle Åström](http://www.maths.lu.se/staff/kalleastrom/) and with example audio playbacks made in the cave, we were able to show the automatic inference of
+    mic positions just from playbacks. If you haven't worked with acoustic localisation this may seem uninteresting, but if you have - you'll be delighted hearing that
+    such things are in development :P!. A part of  the Uschichka dataset was used for the paper published on this method. See [Batstone et al 2019](../publications) 
+    for more details. 
+
 ## Taking it forward
 This is only a teaser of the whole dataset and the things that could be done with it. It may already be too much information. 
 I'd be happy to talk with you about potential ways to take the analysis of this dataset forward as a postdoc!
 
-### Acknowledgements
+## Acknowledgements
 Of course, even though I said that *'I'* collected the dataset, the data collection was only truly possible thanks to a whole group of people backing it at every point along the way.
 Aditya Krishna and Neetash Mysuru helped with data collection in the caves, Antoniya Hubancheva for sparking the whole idea of doing the field work at the Siemers field station itself,
 and the rest of the Tabachka crew for the awesome times. Благодаря, danke schon, tak, and thanks to all of you (named, and not named) in this section. 

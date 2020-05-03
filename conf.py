@@ -23,7 +23,7 @@ BLOG_TITLE = "Thejasvi Beleyur"  # (translatable)
 SITE_URL = "https://thejasvibr.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://example.com/"
+BASE_URL = SITE_URL
 BLOG_EMAIL = "thejasvib@gmail.com"
 BLOG_DESCRIPTION = "Re-search, animals, computing"  # (translatable)
 
