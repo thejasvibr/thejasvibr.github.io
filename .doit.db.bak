@@ -2,7 +2,7 @@
 'render_galleries:output/galleries', (512, 145)
 'render_sources:output/index.rst', (1024, 236)
 'copy_assets', (1536, 56)
-'sitemap:output/sitemapindex.xml', (2048, 254)
+'sitemap:output/sitemapindex.xml', (2048, 255)
 'copy_assets:output/assets/js/gallery.js', (2560, 400)
 'post_render', (3072, 56)
 'copy_assets:output/assets/js/justified-layout.min.js', (3584, 428)
