@@ -10,7 +10,7 @@ I am a biologist at heart (and formal training), with the mindset of a tinkerer-
 like to study animal behaviour with a combination of experimental, theoretical and technology-driven
 methods. The field of bat echolocation allows me to do exactly that. In my daily life as a PhD student I
 handle animals, signal processing, thermal cameras and use lots of Python code to glue them all
-together. I am especially interested in interdisciplinary approaches to answer questions.
+together.
 
 ### Education 
 
@@ -61,18 +61,18 @@ degree by the Government of India.
 
 
 ### Publications ([Google Scholar link](https://scholar.google.co.in/citations?user=qCvp1tAAAAAJ&hl=en&oi=ao))
-* 'Modelling active sensing reveals echo detection even in large groups of bats', ​ **Thejasvi Beleyur**,
+* 'Modelling active sensing reveals echo detection even in large groups of bats', **Thejasvi Beleyur**,
 Holger R. Goerlitz, 2019, Proceedings of the National Academy of Sciences
 * '​ Robust self-calibration of constant offset time-difference-of-arrival ​ ', Kenneth Batstone , Gabriel
-Flood , ​ **Thejasvi Beleyur** , Viktor Larsson , Holger R. Goerlitz , Magnus Oskarsson , Kalle Åström,
+Flood, **Thejasvi Beleyur** , Viktor Larsson , Holger R. Goerlitz , Magnus Oskarsson , Kalle Åström,
 2019, conference proceeding at International Conference on Acoustics, Speech, and Signal
 Processing
 * '​ Geospatial modelling inside the „Orlova Chuka” cave in Bulgaria' ​ , ​ 2018​ , ​ Asparuh Kamburov,
-Holger R. Goerlitz, ​ **Thejasvi Beleyur**, ​ published conference proceedings in ​ International
+Holger R. Goerlitz, **Thejasvi Beleyur**, ​ published conference proceedings in ​ International
 Symposium On Modern Technologies, Education And Professional Practice In Geodesy And
 Related Fields​ (non-peer-reviewed) ([Link](https://youtu.be/AxDdBvLjSMQ) to a flythrough video using the data​ )
 * ‘Long-term behavioural consistency in prey capture but not in web maintenance in a social
-spider ​ ’, ​ **Thejasvi Beleyur​** , Divya U. Bellur, Hema Somanathan, 2015, Behavioural Ecology and
+spider ​ ’, **Thejasvi Beleyur​** , Divya U. Bellur, Hema Somanathan, 2015, Behavioural Ecology and
 Sociobiology
-* ‘​ A mathematical basis for plant patterning derived from physico-chemical phenomena ’ , ​**Thejasvi
+* ‘​ A mathematical basis for plant patterning derived from physico-chemical phenomena ’, ​**Thejasvi
 Beleyur**​ , Abdul Kareem, Anil Shaji, Kalika Prasad, 2013, BioEssays

@@ -16,7 +16,7 @@ Check it out [here](https://github.com/thejasvibr/the_cocktail_party_nightmare).
 
 * ### Python packages
 In the context of quantifying horseshoe bat calls I've been working on a Python package to identify and segment sounds based on their frequency modulation.
-Check out the project page [here](itsfm.rtfd.io)
+The package is called *itsfm*. Check out the project page [here](https://itsfm.readthedocs.io/en/latest/)
 
 * ### Android apps with Kivy
 Smartphones are everywhere and I've always been curious to start playing around with them, and may be use them for a research project at some point. Using the [Kivy](https://kivy.org/#home)
