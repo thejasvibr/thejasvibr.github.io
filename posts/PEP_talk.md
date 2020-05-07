@@ -1,6 +1,7 @@
-Title: Better Science through good code
+Title: Better Science through good code (*TO BE COMPLETED*...)
 Date: 2020-03-31 07:37
 Category:Python, coding, scientific computing
+status: private
 
 *"Beautiful is better than ugly,
   .... 

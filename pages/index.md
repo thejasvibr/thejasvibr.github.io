@@ -1,5 +1,5 @@
 title: About 
-slug: about
+slug: index
 date: 2020-04-09 10:04:01 UTC+02:00
 tags: 
 category: 
@@ -9,7 +9,7 @@ type: text
 
 I'm a behavioural and sensory biologist interested in studying how animals do the crazy things they do.
 Some of the animals I've studied (and am studying) are social spiders, bats, and...plants. I like to mix behavioural observations, sensory measurements, modelling and technology with
-lots of  Python code everywhere and understand more about the how and why of animal behaviour. 
+lots of  Python code everywhere to understand more about the how and why of animal behaviour. 
 
 ![](../images/IMG_20200412_114027.jpg){height=300px}![](../images/setup.gif){height=300px}![](../images/ensonif.gif){height=300px}
 
