@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thejasvi Beleyur (Posts about Python, coding, scientific computing)</title><link>https://thejasvibr.github.io/</link><description></description><atom:link href="https://thejasvibr.github.io/categories/cat_python-coding-scientific-computing.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:thejasvib@gmail.com"&gt;Thejasvi Beleyur&lt;/a&gt; </copyright><lastBuildDate>Sun, 03 May 2020 20:28:07 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Better Science through good code</title><link>https://thejasvibr.github.io/blog/pep_talk/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"Beautiful is better than ugly,
-  .... 
-  ....
-  Simple is better than complex.
-  ....
-  ....
-  Readability counts.
-  ....
-  ....
-  Errors should never pass silently
-  ....
-  If the implementation is hard to explain, it's a bad idea.
-  If the implementation is easy to explain, it may be a good idea.
-"&lt;/em&gt;
-    -- Excerpts from the PEP-20, the &lt;a href="http://www.thezenofpython.com/"&gt;Zen of Python&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;One of the first things I began noticing after my transition to Python was the fact that the internet seemed to constantly throw words like 
-'PEP', and 'coding conventions', 'naming conventions' and 'line lengths' and the lot. My initial reaction was to ignore them and continue coding
-the way I had been. Back then I had been writing programs and hacking other peoples code for the past six years. I  thought  'Okay, this  is coding. What more is there?'. Classically naive thoughts eh?&lt;/p&gt;
-&lt;p&gt;And then, it happened. No, &lt;em&gt;not&lt;/em&gt; a magical  moment of expertise and awesomeness in coding, but the opposite of it all :P. An embarrasing, self-doubt seeding, waste of time experience, where I suddenly realised it all had to change. Having seeded  all this anticipation in you, I will now proceed to say this is a post for another time, suffice to say,  it was a professionally humbling experience, where I realised I had to go back and unlearn a bunch of things and learn a bunch concepts anew. This post is  about the power of one of those concepts: coding conventions.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;"Good coding style is like correct punctuation: you can manage without it..."&lt;/em&gt; -- Hadley Wickham, &lt;a href="https://style.tidyverse.org/"&gt;The tidyverse style guide&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Coding conventions are like  dialects  of a language in many ways. It's the umbrella term for a bunch of patterns that a group  of people use when they write code: how variables are named, the way the code is documented, or how the code is formatted. Each project typically has its own coding convention. In the Python community,  it seems like &lt;a href="https://www.python.org/dev/peps/pep-0008/"&gt;PEP-8&lt;/a&gt; is a common reference point. What is this PEP-8? The way I understand it, PEP-8 is the document which set out the coding conventions for all code that will be part of the main Python distribution. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://numpy.org"&gt;NumPy&lt;/a&gt; docstrings and how following the patterns actually rewards you. &lt;/li&gt;
-&lt;li&gt;
-&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>https://thejasvibr.github.io/blog/pep_talk/</guid><pubDate>Tue, 31 Mar 2020 05:37:00 GMT</pubDate></item><item><title>So, you do *everything* in Python?</title><link>https://thejasvibr.github.io/blog/why_python/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"..and that was when Mowgli knew he would forever be safe in the comforting coils of Saamp, the Python"&lt;/em&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thejasvi Beleyur (Posts about Python, coding, scientific computing)</title><link>https://thejasvibr.github.io/</link><description></description><atom:link href="https://thejasvibr.github.io/categories/cat_python-coding-scientific-computing.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:thejasvib@gmail.com"&gt;Thejasvi Beleyur&lt;/a&gt; </copyright><lastBuildDate>Thu, 07 May 2020 09:15:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>So, you do *everything* in Python?</title><link>https://thejasvibr.github.io/blog/why_python/</link><dc:creator>Thejasvi Beleyur</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;em&gt;"..and that was when Mowgli knew he would forever be safe in the comforting coils of Saamp, the Python"&lt;/em&gt;
 -- &lt;em&gt;Not Rudyard Kipling, 1892&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;"Open your eyes, look up to the skies and see" *
 &lt;/em&gt;--Queen, Not Rudyard Kipling, 1975 *&lt;/p&gt;

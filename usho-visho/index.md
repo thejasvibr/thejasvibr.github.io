@@ -11,7 +11,7 @@ type: text
 
 
 As part of my PhD looking at how bats manage to [echolocate in groups](../research), I collected a multichannel audio-video dataset consisting of between 12-22 microphones and three thermal cameras.
-I call this combined recording system 'Uschichka' (Ушичка) (*OO-shi-ch-kaa*), the Bulgarian dimunitive for something with multiple ears. The Uschichka system was built with [Holger R Goerlitz](https://www.orn.mpg.de/person/26282/2902144) to record bat
+I call this combined recording system 'Uschichka' (Ушичка) (*OO-shi-ch-kaa*), the Bulgarian dimunitive for something with multiple ears. The Uschichka system was built with <a href="https://www.orn.mpg.de/person/26282/2902144" target="_blank"> Holger R Goerlitz</a> to record bat
 groups as they echolocate in their natural habitat. The dataset can provide direct glimpses into how bats change their flight and echolocation behaviours as 
 the group size around them increases. 
 
@@ -36,11 +36,11 @@ the group size around them increases.
 	recording captures the entire variation in bat behaviour across group sizes in a *constant* environment. 
 
 * ### Comparing observed data with predictions
-![hello hello](../images/modelling_schematic.png){height=300px}||![](../images/flying_bats_schematic.png){height=300px}
+![hello hello](../images/modelling_schematic.png){height=300px}![](../images/flying_bats_schematic.png){height=300px}
 
 *Left: schematic based on our 2019 model showing the different types of sounds in echolocating groups, Right: schematic showing the same masking sounds in the field, and how they can be estimated/measured in the field*
 
-I've been working on how bats manage to echolocate in groups over the course of my PhD, and have a series of predictions outlined in [this paper](https://www.pnas.org/content/116/52/26662.short).
+I've been working on how bats manage to echolocate in groups over the course of my PhD, and have a series of predictions outlined in <a href="https://www.pnas.org/content/116/52/26662.short" target="_blank">this paper</a>.
 The computational model was built to simulate the acoustical and sensory phenomena bats may be experiencing while echolocating in groups, and was parametrised with 
 experimentally observed values typical of an 'average' bat. The idea would be to parametrise this computational model for the behaviour of the study species in the recordings 
 (*Myotis myotis*) and run new predictions to see whether the observed changes they  show actually lead to decreased masking in the group. The simulations in the paper above
@@ -80,17 +80,16 @@ However, even with three or more bats, the calls begin to arrive with near or co
 ## Supporting datasets/methods around Uschichka:
 * LiDAR scans of the cave
 
-    The whole recording volume and a sizeable area of the cave around it has been scanned with a LiDAR scanner by [Asparuh Kamburov](https://www.linkedin.com/in/asparuh-kamburov-baa58525/?originalSubdomain=bg).
+    The whole recording volume and a sizeable area of the cave around it has been scanned with a LiDAR scanner by <a href="https://www.linkedin.com/in/asparuh-kamburov-baa58525/?originalSubdomain=bg" target="_blank">Asparuh Kamburov</a>.
     The details of the scanning and data collection are described in our [2018 report](../publications). The dataset serves as a nice basis to investigate
     how bats flying within the volume make their sensorimotor decisions. Through tracking we can estimate when the bats emitted their calls, and the LiDAR scans allow
-    a calculation of the time of arrival and intensity of the sounds. Some cool 'room acoustics' could be done using basic ray tracing perhaps to simulate sound propagation (with a package like
-    [pyroomacoustics](https://pyroomacoustics.readthedocs.io/en/pypi-release/index.html)?
+    a calculation of the time of arrival and intensity of the sounds. Some cool 'room acoustics' could be done using basic ray tracing perhaps to simulate sound propagation (with a package like <a href="https://pyroomacoustics.readthedocs.io/en/pypi-release/index.html" target="_blank">pyroomacoustics</a>?
 
 * Automatic microphone position calibration
 
     Working with many microphones *not* on arrays means constantly having to measure their positions and inter-mic distances. While this is feasible for 
     a few mics, the number of measurements to be made with more mice increases horribly fast. While looking for automated solutions to this problem I reached out
-    to [Kalle Åström](http://www.maths.lu.se/staff/kalleastrom/) and with example audio playbacks made in the cave, we were able to show the automatic inference of
+    to <a href="http://www.maths.lu.se/staff/kalleastrom/" target="_blank">Kalle Åström</a> and with example audio playbacks made in the cave, we were able to show the automatic inference of
     mic positions just from playbacks. If you haven't worked with acoustic localisation this may seem uninteresting, but if you have - you'll be delighted hearing that
     such things are in development :P!. A part of  the Uschichka dataset was used for the paper published on this method. See [Batstone et al 2019](../publications) 
     for more details. 

@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://thejasvibr.github.io/</loc>
-  <lastmod>2020-05-01T08:25:00Z</lastmod>
+  <lastmod>2020-05-07T08:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/2020/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://thejasvibr.github.io/archive.html</loc>
-  <lastmod>2020-05-03T21:17:00Z</lastmod>
+  <lastmod>2020-05-07T09:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/</loc>
@@ -51,11 +51,7 @@
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/index-1.html</loc>
-  <lastmod>2020-05-03T21:17:00Z</lastmod>
- </url>
- <url>
-  <loc>https://thejasvibr.github.io/blog/pep_talk/</loc>
-  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <lastmod>2020-05-07T08:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/the_programming_language/</loc>
@@ -120,6 +116,10 @@
  <url>
   <loc>https://thejasvibr.github.io/listings/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://thejasvibr.github.io/notindex/</loc>
+  <lastmod>2020-05-07T08:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/publications/</loc>

@@ -3,7 +3,7 @@ slug: cv
 date: 2020-04-19 17:41:35 UTC+02:00
 type: text
 
-<a href="../Thejasvi_Beleyur_CV.pdf" download>Download CV</a>
+<a href="../Thejasvi_Beleyur_CV.pdf" target="_blank">Download CV</a>
 
 ### About me 
 I am a biologist at heart (and formal training), with the mindset of a tinkerer-engineer. I
@@ -35,7 +35,7 @@ Shaji
 * Experience handling animals (spiders, bats) and managing field work
 * Signal analysis, image analysis and digital data acquisition methods
 * Writing readable and reproducible software
-* Coding in order of proficiency: Python, R, MATLAB (​ Github page​ )
+* Coding in order of proficiency: Python, R, MATLAB (<a href="https://github.com/thejasvibr" target="_blank">Github page</a>​)
 * Maintaining code bases with documentation 
 
 ### Other competencies 
@@ -46,7 +46,7 @@ Shaji
 * Project management along with supervision and training of students
 * Field expedition management and planning
 
-### Languages I speak (self-assessed [CEFR level](https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels))
+### Languages I speak (self-assessed <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels" target="_blank">CEFR level</a>)
 * English (C2), German (B1-B2), Kannada (B1), Hindi (B1), Bahasa Indonesia (A2)
 
 ### Scholarships/grants awarded 
@@ -60,7 +60,7 @@ Exchange Service (DAAD).
 degree by the Government of India.
 
 
-### Publications ([Google Scholar link](https://scholar.google.co.in/citations?user=qCvp1tAAAAAJ&hl=en&oi=ao))
+### Publications (<a href="https://scholar.google.co.in/citations?user=qCvp1tAAAAAJ&hl=en&oi=ao" target="_blank"> Google Scholar link</a>)
 * 'Modelling active sensing reveals echo detection even in large groups of bats', **Thejasvi Beleyur**,
 Holger R. Goerlitz, 2019, Proceedings of the National Academy of Sciences
 * '​ Robust self-calibration of constant offset time-difference-of-arrival ​ ', Kenneth Batstone , Gabriel

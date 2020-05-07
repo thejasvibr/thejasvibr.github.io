@@ -2,7 +2,7 @@ Title: What you *could* do, but you shouldn't
 Date: 2020-03-28 8:20
 Category: Python, coding, writing
 
-*"What gets you into trouble ain't what you don't know, but what you think you do, but ain't so"*
+*"What gets you into trouble ain't what you don't know, but what you think you do, but ain't so"* - Anon
 
 This post is about how good software should be like an honest person - who knows their area of competence before taking up a task *REPHRASE THISS-- IT'S TOO STRONG*. 
 We (myself included) often receive or write code to get things working, and then proceed to keep using it or share it eventually with our lab mates. 
@@ -10,7 +10,7 @@ Like anything in the course of life,  use-cases for the software may change. A n
 and process the data with this awesome codebase.  Person X now triumphantly  sits in front of the computer...and waits for the code to  run through with anticipation .... and after a few seconds of anticipation,  out come the plots!!
 
 Of course, there's a twist to the story in that the results actually seem okay in the beginning, until Person X notices a bunch of weird details. Factor Z, a universal constant, is about 1.5 times more than it should - and this is too much. 
-But the diagnostic plots look fine, and the  code ran!! What is happening??
+But the diagnostic plots look fine, and the  code ran!! What is happening?? <!-- TEASER_END-->
 
 Many agonising hours later, Person X finally figures out that the Awesome Codebase has been a somewhat dishonest person. 
 How is Awesome Codebase like a dishonest person you ask? Well, Person X figured out finally that Awesome Codebase was basically written to handle the analysis of Cool Experiments done to understand Factor Z using four Z-probes. What are Z-probes? They are the devices that measure the value of the Z-factor. Awesome Codebase can handle a wide variety of Z-probes, and that's why it's quite famous in its community. However, it  turns out Person X wanted to replicate  the experiments under the simplest possible conditions. Person X's experiment involves measurements with *three* Z-probes, instead of the standard five, six, or seven. 
