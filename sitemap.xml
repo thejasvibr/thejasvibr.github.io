@@ -7,23 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://thejasvibr.github.io/</loc>
-  <lastmod>2020-05-07T08:32:00Z</lastmod>
+  <lastmod>2020-05-07T09:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/2020/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://thejasvibr.github.io/about/</loc>
-  <lastmod>2020-04-28T21:51:00Z</lastmod>
- </url>
- <url>
   <loc>https://thejasvibr.github.io/archive.html</loc>
-  <lastmod>2020-05-07T09:17:00Z</lastmod>
+  <lastmod>2020-05-14T12:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/</loc>
-  <lastmod>2020-05-05T18:42:00Z</lastmod>
+  <lastmod>2020-05-12T03:01:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/2_universal_data_formats/</loc>
@@ -38,20 +34,12 @@
   <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://thejasvibr.github.io/blog/example-jupyter-notebook-post/</loc>
-  <lastmod>2020-04-28T21:51:00Z</lastmod>
- </url>
- <url>
   <loc>https://thejasvibr.github.io/blog/finish-this-analysis/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/first-post/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://thejasvibr.github.io/blog/index-1.html</loc>
-  <lastmod>2020-05-07T08:38:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/the_programming_language/</loc>
@@ -71,7 +59,7 @@
  </url>
  <url>
   <loc>https://thejasvibr.github.io/categories/</loc>
-  <lastmod>2020-04-28T21:51:00Z</lastmod>
+  <lastmod>2020-05-07T09:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/categories/cat_data-analysis/</loc>
@@ -83,10 +71,6 @@
  </url>
  <url>
   <loc>https://thejasvibr.github.io/categories/cat_python-coding-writing/</loc>
-  <lastmod>2020-04-28T21:51:00Z</lastmod>
- </url>
- <url>
-  <loc>https://thejasvibr.github.io/categories/cat_python-reproducible-science/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
  </url>
  <url>
