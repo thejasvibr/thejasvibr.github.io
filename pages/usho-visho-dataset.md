@@ -1,10 +1,7 @@
 title: The Ushichka Dataset: waiting to be analysed!
-slug: usho-visho
+slug: ushichka
 date: 2020-04-22 08:30:13 UTC+02:00
-tags: 
-category: 
-link: 
-description: 
+description: many bats flying around!
 type: text
 
 ![](../images/DC6A5930_w.JPG){height=300px}![](../images/orlova_chuka.gif){height=300}
