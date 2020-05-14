@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
                    ("../index.html","About"),                   
                   ("/research/","Research"),
+                  ("/usho-visho/","Ushichka"),  
                   ("/publications","Publications"),  
                   ("/cv","CV"),
                   ("/code","Code"),    
