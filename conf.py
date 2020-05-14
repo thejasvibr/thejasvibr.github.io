@@ -140,8 +140,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
                    ("../index.html","About"),                   
-                  ("/research/","Research"),
-                  ("/ushichka/","Ushichka dataset"),  
+                  ("/research","Research"),
+                  ("/ushichka","Ushichka dataset"),  
                   ("/publications","Publications"),  
                   ("/cv","CV"),
                   ("/code","Code"),    
