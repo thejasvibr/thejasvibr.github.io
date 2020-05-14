@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://thejasvibr.github.io/</loc>
-  <lastmod>2020-05-07T09:30:00Z</lastmod>
+  <lastmod>2020-05-14T12:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/2020/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://thejasvibr.github.io/archive.html</loc>
-  <lastmod>2020-05-14T12:21:00Z</lastmod>
+  <lastmod>2020-05-14T12:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/blog/</loc>
@@ -112,6 +112,14 @@
  <url>
   <loc>https://thejasvibr.github.io/research/</loc>
   <lastmod>2020-04-28T21:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://thejasvibr.github.io/uschichka/</loc>
+  <lastmod>2020-05-14T12:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://thejasvibr.github.io/ushichka/</loc>
+  <lastmod>2020-05-14T12:35:00Z</lastmod>
  </url>
  <url>
   <loc>https://thejasvibr.github.io/usho-visho/</loc>
