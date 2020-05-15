@@ -145,7 +145,7 @@ NAVIGATION_LINKS = {
                   ("/publications","Publications"),  
                   ("/cv","CV"),
                   ("/code","Code"),    
-                  ("/blog/","Writing"),  
+                  ("/blog/","Blog"),  
                   ("/categories/", "Tags"),
                     ),
                 }
