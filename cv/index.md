@@ -32,17 +32,17 @@ Shaji
 ### Technical Skills
 * Acoustic and video tracking of animals
 * Design, execution and analysis of bioacoustics and animal behaviour experiments
-* Experience handling animals (spiders, bats) and managing field work
-* Signal analysis, image analysis and digital data acquisition methods
-* Writing readable and reproducible software
-* Coding in order of proficiency: Python, R, MATLAB (<a href="https://github.com/thejasvibr" target="_blank">Github page</a>​)
-* Maintaining code bases with documentation 
+* Experience handling animals (ant, spiders, bats) and managing field work
+* Signal and image analysis, digital data acquisition methods
+* Writing readable and reproducible scientific code
+* Coding in order of language proficiency: Python, R, MATLAB (<a href="https://github.com/thejasvibr" target="_blank">Github page</a>​)
+* Writing and maintaining scientific software packages (<a href="https://itsfm.readthedocs.io/en/latest/" target="_blank">itsfm</a>, [tacost]())
 
 ### Other competencies 
 * Scientific manuscript and grant writing
-* Presentation and and communication of scientific results and concepts
-* Can work in independent and collaborative situations
-* Ability to work in interdisciplinary environments
+* Presentation and communication of scientific results and concepts
+* Can work in independent or collaborative situations
+* Track record of working in interdisciplinary environments
 * Project management along with supervision and training of students
 * Field expedition management and planning
 
