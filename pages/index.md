@@ -17,9 +17,7 @@ Thanks for landing up here, and do check  out the other pages about my research,
 science and scientific computing.
 
 ### *Updates*
-* I'm currently heading on the path to finishing up my PhD, and am looking for potential labs to do a post-doc. I'm particularly interested in projects that involve a mix 
-of computational and experimental components to it with sensory biology and image/signal analysis involved. I'm particularly interested to talk about the possibility of continuing
-work on a high spatio-temporal resolution dataset of echolocating bat groups I collected  during my PhD. Visit [this page](../ushichka) for more details on why I think this dataset is cool and unique! 
+* I'm currently heading on the path to finishing up my PhD, and am looking for potential labs to do a post-doc. I'm particularly interested in projects that involve a mix of computational and experimental components to it with sensory biology and image/signal analysis involved. I'd also love to talk about the possibility of continuing work on a high spatio-temporal resolution dataset of echolocating bat groups I collected  during my PhD. Visit [this page](../ushichka) for more details on why I think this dataset is cool and unique! 
 
 
 
