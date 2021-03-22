@@ -12,12 +12,17 @@ methods. The field of bat echolocation allows me to do exactly that. In my daily
 handle animals, signal processing, thermal cameras and use lots of Python code to glue them all
 together.
 
-### Education 
+### Work experience
 
-**2015-present** : ​ PhD investigating how echolocating bats are able to cope with acoustically difficult
+**2021-ongoing** : Postdoc grant at the Centre for the Advanced Study Collective Behaviour to develop tracking methods and analyse the 
+[Ushichka dataset](../ushichka). 
+
+**2015-2021** : ​ PhD investigating how echolocating bats are able to cope with acoustically difficult
 situations. I use a combination of theoretical and experimental approaches to tackle this question.
 Supervisor: Dr. Holger Goerlitz, Acoustic and Functional Ecology Group, Max Planck Institute for
 Ornithology, Seewiesen.
+
+### Education
 
 **2008-2013**: ​ BS-MS dual degree in Biological Sciences, Indian Institute of Science Education and Research,
 Thiruvananthapuram (IISER-TVM)
