@@ -4,7 +4,7 @@ date: 2020-04-22 08:30:13 UTC+02:00
 description: many bats flying around!
 type: text
 
-![](../images/DC6A5930_w.JPG){height=300px}![](../images/orlova_chuka.gif){height=300}
+![](../images/DC6A5930_w.JPG){height=300px}![](../images/optim_orlova_chuka.gif){height=300}
 
 *Left: The Uschichka setup with three cameras (small blue lights), a large array and many smaller microphones (not visible). Right: The bats flying around in the cave!*
 
@@ -50,7 +50,7 @@ receive.
 
 * ### Frame synchronised and 3D calibrated video recordings with 3 thermal cameras
 
-	![](../images/K1_wand.gif){height=300px}![](../images/K3_wand.gif){height=300px}
+	![](../images/optim_K1_wand.gif){height=300px}![](../optim_images/optim_K3_wand.gif){height=300px}
 
 	*That's me doing a calibration run with a common object at the end of the pole. Note: The 2 GIFS here are sometimes displayed with a bit of delay - the actual video data is frame synchronised!*
 

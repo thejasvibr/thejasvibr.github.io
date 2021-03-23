@@ -22,7 +22,7 @@ many bat species don't seem to be bothered by it. Bats are very social animals
 and even display impressive feats of group flight as they emerge in the evening
 or even within the cave itself. 
 
-.. image:: ../images/orlova_chuka.gif
+.. image:: ../images/optim_orlova_chuka.gif
    :height: 15 pc
 
 My research seeks to answer how they manage to fly despite the tricky 
