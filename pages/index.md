@@ -11,7 +11,7 @@ I'm a behavioural and sensory biologist interested in studying how animals do th
 Some of the animals I've studied (and am studying) are social spiders, bats, and...plants. I like to mix behavioural observations, sensory measurements, modelling and technology with
 lots of  Python code everywhere to understand more about the how and why of animal behaviour. 
 
-![](../images/IMG_20200412_114027.jpg){height=300px}![](../images/setup.gif){height=300px}![](../images/ensonif.gif){height=300px}
+![](../images/IMG_20200412_114027.jpg){height=300px}![](../images/optim_setup.gif){height=300px}![](../images/optim_ensonif.gif){height=300px}
 
 Thanks for landing up here, and do check  out the other pages about my research, publications, and my blog where I write mostly about 
 science and scientific computing.
