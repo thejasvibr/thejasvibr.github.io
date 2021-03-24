@@ -22,7 +22,7 @@ many bat species don't seem to be bothered by it. Bats are very social animals
 and even display impressive feats of group flight as they emerge in the evening
 or even within the cave itself. 
 
-.. image:: ../images/optim_orlova_chuka.gif
+.. image:: ../images/small_gifs/small_optim_orlova_chuka.gif
    :height: 15 pc
 
 My research seeks to answer how they manage to fly despite the tricky 
@@ -43,7 +43,7 @@ to the 'classic' spider way of doing things, there are just about 40 species of
 spiders that are positively social. Two social spiders  in a box will actually end up in the same corner at the end of the day. As a result of their sociality social spiders can do many things a typical solitary spider cannot. A nice example is that social spiders can build *huge* webs, or capture prey much larger than
 they would be able to alone. 
 
-.. image:: ../images/stegos_on_web.gif
+.. image:: ../images/small_gifs/small_stegos_on_web.gif
    :height: 15 pc
 .. image:: ../images/stego_ppt.png
    :height: 15 pc
