@@ -4,7 +4,7 @@ date:2020-05-05
 tags:research 
 description:On why less is more in research sometimes.
 type:text
-status:private
+
 
 *original post: 05/20, edits in 04/21*
 
