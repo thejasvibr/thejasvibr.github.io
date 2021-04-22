@@ -395,3 +395,5 @@
 'scale_images:output/images/small_gifs/small_optim_optim_K3_wand.gif', (965632, 276)
 'scale_images:output/images/small_gifs/small_optim_K1_wand.gif', (966144, 265)
 'scale_images:output/images/small_gifs/small_optim_stegos_on_web.gif', (966656, 276)
+'render_taxonomies:output/categories/research.xml', (976896, 586)
+'render_taxonomies:output/categories/research/index.html', (1007104, 1953)
