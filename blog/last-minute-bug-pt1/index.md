@@ -56,7 +56,7 @@ were matching expected levels. Why was it happening? It turns out there's
 a very human mistake behind this bug. And if you're wondering what happened
 to the paper, and whether the rest of the code base is riddled with similar
 bugs? I'll end part I by saying the findings of the paper were nonetheless 
-not affected by this bug. I was __very__$^\infty$ lucky in this particular
+not affected by this bug. I was __very__ $^\infty$ lucky in this particular
 case I'd say. The reason I'd initially thought the bug-riddled data was okay 
 was indeed because it followed the trends from previous runs, and didn't stand out
 in any obvious manner. We removed the faulty data and could go ahead with the presentation
