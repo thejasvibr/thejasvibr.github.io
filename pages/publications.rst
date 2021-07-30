@@ -4,6 +4,12 @@
 .. link: publications
 .. type: text
 
+2021
+~~~~
+
+* **Beleyur, T.**, Murthy, G. T., Singh, S., Somanathan, H., Uma, D. (2021). Web structure, dynamics and silk investment in the social spider `Stegodyphus sarasinorum`, Animal Behaviour, 179 (pp 139-146). Download `here! <../beleyur_et_al_2021.pdf>`_
+
+
 2019
 ~~~~
 
@@ -12,9 +18,9 @@
 .. image:: ../images/icassp_cave_exxpt.png
    :height: 10 pc
 
-* **Beleyur, T.**, & Goerlitz, H. R. (2019). Modeling active sensing reveals echo detection even in large groups of bats. Proceedings of the National Academy of Sciences, 116(52), 26662-26668. 
+* **Beleyur, T.**, & Goerlitz, H. R. (2019). Modeling active sensing reveals echo detection even in large groups of bats. Proceedings of the National Academy of Sciences, 116(52), 26662-26668. Download `here: <../Beleyur_Goerlitz_2019_paper_and_SI_.pdf>`_
 
-* Batstone, K., Flood, G., **Beleyur, T.**, Larsson, V., Goerlitz, H. R., Oskarsson, M., & Åström, K. (2019, May). Robust Self-calibration of Constant Offset Time-difference-of-arrival. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 4410-4414). IEEE. 
+* Batstone, K., Flood, G., **Beleyur, T.**, Larsson, V., Goerlitz, H. R., Oskarsson, M., & Åström, K. (2019, May). Robust Self-calibration of Constant Offset Time-difference-of-arrival. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 4410-4414). IEEE. Download `here. <Batstone_et_al_2019_ICASSP_IEEEXPLORE.pdf>`_.
 
 
 2018
@@ -33,7 +39,7 @@
 .. image:: ../images/stego_painted_2015paper.png
    :width: 25 %	
 
-* **Beleyur, T.**, Bellur, D. U., & Somanathan, H. (2015). Long-term behavioural consistency in prey capture but not in web maintenance in a social spider. Behavioral Ecology and Sociobiology, 69(6), 1019-1028.
+* **Beleyur, T.**, Bellur, D. U., & Somanathan, H. (2015). Long-term behavioural consistency in prey capture but not in web maintenance in a social spider. Behavioral Ecology and Sociobiology, 69(6), 1019-1028. Download `here <../Beleyur_et_al_2015.pdf>`_.
 
 
 2013 
