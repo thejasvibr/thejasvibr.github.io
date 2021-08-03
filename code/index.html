@@ -102,14 +102,17 @@ In the recent past I've been trying to make as much of the actual data crunching
 <li>
 <h4>Reproducible code</h4>
 <p>In the recent past I've been trying to make as much of the actual data crunching, analysis and visualisation as computationally reproducible as possible. This means avoiding steps which include clicks with a mouse, or manual copy-pasting of files.
-In the Python ecosystem, it is incredibly easy to do this using the rich package system and Jupyter notebooks. The first paper from my PhD was a computational  model of bat echolocation in groups, and 
-the essential parts of the paper (results, analysis and  plots) can be independently recreated by running a couple of files.
-Check it out <a href="https://github.com/thejasvibr/the_cocktail_party_nightmare" target="_blank">here</a>.</p>
+In the Python and R ecosystems, it is incredibly easy to do this using the rich package system and Jupyter notebooks. The first paper from my PhD was a computational  model of bat echolocation in groups, and the essential parts of the paper (results, analysis and  plots) can be independently recreated by running a couple of files. Check it out <a href="https://github.com/thejasvibr/the_cocktail_party_nightmare" target="_blank">here</a>. I went on to do this for more papers, and this is the normal approach I'm now planning to continue - including automating all table entries and formatting. One of my more recent papers with fully reproducible outputs <a href="https://github.com/thejasvibr/mhbc-online">here</a>.</p>
 </li>
 <li>
 <h4>Python packages</h4>
-<p>In the context of quantifying horseshoe bat calls I've been working on a Python package to identify and segment sounds based on their frequency modulation.
-The package is called <em>itsfm</em>. Check out the project page <a href="https://itsfm.readthedocs.io/en/latest/" target="_blank">here</a>. </p>
+<ul>
+<li>
+<code>beamshapes</code>: a package that implements directivity patterns for sound sources. The directivity of a sound source dictates how directional or omnidirectional sound radiation is from a source. While there are many published solutions - they tend to be in-house scripts written in proprietary languages. This is my attempt at implementing directivities for universal access to the acoustics and bioacoustics community. <a href="https://beamshapes.readthedocs.io/en/latest/">Project page</a>
+</li>
+<li>
+<code>itsfm</code>: In the context of quantifying horseshoe bat calls I've been working on a Python package to identify and segment sounds based on their frequency modulation. The package is called <em>itsfm</em>. Check out the project page <a href="https://itsfm.readthedocs.io/en/latest/" target="_blank">here</a>. </li>
+</ul>
 </li>
 <li>
 <h4>Android apps with Kivy</h4>
