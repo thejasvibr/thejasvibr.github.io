@@ -4,6 +4,12 @@
 .. link: publications
 .. type: text
 
+2022
+~~~~
+
+* **Beleyur, T.** (2022), beamshapes: A Python package to generate directivity patterns for various sound source models. Journal of Open Source Software, 7(69), 3740. Download `here <../beleyur_2022_beamshapes.pdf>`_
+
+
 2021
 ~~~~
 
