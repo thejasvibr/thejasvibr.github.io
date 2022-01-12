@@ -3,7 +3,7 @@ slug: cv
 date: 2020-04-19 17:41:35 UTC+02:00
 type: text
 
-<a href="../Thejasvi_Beleyur_CV.pdf" target="_blank">Download CV</a>
+<a href="../beleyurthejasvi_CV.pdf" target="_blank">Download CV</a>
 
 ### About me 
 I am a biologist at heart (and formal training), with the mindset of a tinkerer-engineer. I
@@ -55,6 +55,7 @@ Shaji
 * English (C2), German (B1-B2), Kannada (B1), Hindi (B1), Bahasa Indonesia (A2)
 
 ### Scholarships/grants awarded 
+* **Medium grant at the Centre for the Advanced Study of Collective Behaviour** : one year postdoc grant
 * **August 2019: Google Cloud Platform Research Credits award​** : a $1000 grant that provides
 access to Google's cloud computing facilities to execute and analyse data from the simulations in
 Beleyur & Goerlitz 2019.
@@ -66,6 +67,9 @@ degree by the Government of India.
 
 
 ### Publications (<a href="https://scholar.google.co.in/citations?user=qCvp1tAAAAAJ&hl=en&oi=ao" target="_blank"> Google Scholar link</a>)
+
+* 'beamshapes: A python package to generate directivity patterns for various sound source
+models', 2022, Journal of Open Source Software, **Thejasvi Beleyur**, 
 * 'Modelling active sensing reveals echo detection even in large groups of bats', **Thejasvi Beleyur**,
 Holger R. Goerlitz, 2019, Proceedings of the National Academy of Sciences
 * '​ Robust self-calibration of constant offset time-difference-of-arrival ​ ', Kenneth Batstone , Gabriel
