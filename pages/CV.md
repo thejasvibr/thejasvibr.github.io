@@ -13,8 +13,9 @@ handle animals, signal processing, thermal cameras and use lots of Python code t
 together.
 
 ### Work experience
+**2022 March - 2022 June** : Young Scholar Fund Bridge Fellowship to continue work started at the CASCB, Uni Konstanz
 
-**2021-ongoing** : Postdoc grant at the Centre for the Advanced Study Collective Behaviour to develop tracking methods and analyse the 
+**2021 March - 2022 March** : Postdoc grant at the Centre for the Advanced Study Collective Behaviour to develop tracking methods and analyse the 
 [Ushichka dataset](../ushichka). 
 
 **2015-2021** : ​ PhD investigating how echolocating bats are able to cope with acoustically difficult
