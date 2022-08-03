@@ -17,9 +17,9 @@ Thanks for landing up here, and do check  out the other pages about my research,
 science and scientific computing.
 
 ### *Updates*
+* 2022-08-01:Officially started the 2 year [Walter Benjamin](https://www.dfg.de/en/research_funding/programmes/individual/walter_benjamin/index.html) position awarded by the DFG at the University of Konstanz!
 * 2022-03-31: [Young Scholar Fund](https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/university-of-konstanz-committees/committee-on-research-aff/young-scholar-fund-ysf/) Bridge Fellowship awarded. Starting from tomorrow (yes, this is no April Fool's joke)
 * 2021-01-10: ```beamshapes``` package published through peer-review. Check out the [paper](https://joss.theoj.org/papers/10.21105/joss.03740), [docs](https://beamshapes.readthedocs.io/en/latest/) and [repo](https://github.com/thejasvibr/bat_beamshapes)
-* 2021-07-30: Do social-spiders save silk in groups, and how does web structure change with group size? Our latest paper is finally out: check it out [here](../publications) or [here]( https://authors.elsevier.com/a/1dUf7mjLwpTu) 
 
 
 
