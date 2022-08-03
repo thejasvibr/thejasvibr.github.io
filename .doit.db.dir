@@ -47,7 +47,7 @@
 'copy_assets:output/assets/js/jquery.min.js', (326656, 582)
 'copy_assets:output/assets/css/ipython.min.css', (41472, 413)
 'render_taxonomies:output/categories/index.html', (552960, 2759)
-'render_pages:output/index.html', (479744, 6565)
+'render_pages:output/index.html', (479744, 6564)
 'copy_files', (46592, 56)
 'copy_assets:output/assets/css/rst.css', (47104, 394)
 'copy_assets:output/assets/js/html5.js', (47616, 397)
