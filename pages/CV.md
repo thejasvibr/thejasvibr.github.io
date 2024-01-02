@@ -1,6 +1,6 @@
 title: CV
 slug: cv
-date: 2020-04-19 17:41:35 UTC+02:00
+date: 2023-01-02 23:41:35 UTC+02:00
 type: text
 
 <a href="../beleyurthejasvi_CV.pdf" target="_blank">Download CV</a>
@@ -8,11 +8,13 @@ type: text
 ### About me 
 I am a biologist at heart (and formal training), with the mindset of a tinkerer-engineer. I
 like to study animal behaviour with a combination of experimental, theoretical and technology-driven
-methods. The field of bat echolocation allows me to do exactly that. In my daily life as a PhD student I
-handle animals, signal processing, thermal cameras and use lots of Python code to glue them all
+methods. The field of bat echolocation allows me to do exactly that. In my daily life as a postdoc I
+watch animals, signal processing, thermal cameras and use lots of Python code to glue them all
 together.
 
 ### Work experience
+**2022 August - present** : DFG Walter Benjamin postdoc grant holder - awarded for the grant 'The How and What of Active Sensing Collectives'
+
 **2022 March - 2022 June** : Young Scholar Fund Bridge Fellowship to continue work started at the CASCB, Uni Konstanz
 
 **2021 March - 2022 March** : Postdoc grant at the Centre for the Advanced Study Collective Behaviour to develop tracking methods and analyse the 

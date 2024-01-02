@@ -17,9 +17,7 @@ Thanks for landing up here, and do check  out the other pages about my research,
 science and scientific computing.
 
 ### *Updates*
+* 2023-10 : Best early-career researcher talk at the International Bio Acoustics Congress held at Sapporo, Japan!
+* 2023-10 : Awarded the CASCB postdoc fellowship - start to be decided.
+* 2023-09-27: Our paper on echolocation levels of a gleaning bat - lead by Lena de Framond is [out now in Journal of Experimental Biology](https://journals.biologists.com/jeb/article/226/18/jeb245801/329516/Calibrated-microphone-array-recordings-reveal-that)
 * 2022-08-01:Officially started the 2 year [Walter Benjamin](https://www.dfg.de/en/research_funding/programmes/individual/walter_benjamin/index.html) position awarded by the DFG at the University of Konstanz!
-* 2022-03-31: [Young Scholar Fund](https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/university-of-konstanz-committees/committee-on-research-aff/young-scholar-fund-ysf/) Bridge Fellowship awarded. Starting from tomorrow (yes, this is no April Fool's joke)
-* 2021-01-10: ```beamshapes``` package published through peer-review. Check out the [paper](https://joss.theoj.org/papers/10.21105/joss.03740), [docs](https://beamshapes.readthedocs.io/en/latest/) and [repo](https://github.com/thejasvibr/bat_beamshapes)
-
-
-
