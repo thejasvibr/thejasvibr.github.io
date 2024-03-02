@@ -57,20 +57,23 @@ Shaji
 ### Languages I speak (self-assessed <a href="https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages#Common_reference_levels" target="_blank">CEFR level</a>)
 * English (C2), German (B1-B2), Kannada (B1), Hindi (B1), Bahasa Indonesia (A2)
 
-### Scholarships/grants awarded 
-* **Medium grant at the Centre for the Advanced Study of Collective Behaviour** : one year postdoc grant
-* **August 2019: Google Cloud Platform Research Credits award​** : a $1000 grant that provides
+### Scholarships/grants awarded (selection)
+* CASCB 'Small' Grant (10,000 EUR) to implement an echolocating robot platform to study how bats manage in swarms
+* Early Career Researcher Award for the best talk about the [International Bioacoustics Congress](https://2023.ibac.info/index.html) held in Sapporo, Japan 
+* Medium grant at the Centre for the Advanced Study of Collective Behaviour** : one year postdoc grant
+* August 2019: Google Cloud Platform Research Credits award​ : a $1000 grant that provides
 access to Google's cloud computing facilities to execute and analyse data from the simulations in
 Beleyur & Goerlitz 2019.
-* **September 2015-August 2019: DAAD PhD scholarship**: ​ awarded a scholarship to pursue PhD
+* September 2015-August 2019: DAAD PhD scholarship: ​ awarded a scholarship to pursue PhD
 studies at the Max Planck Institute for Ornithology, Seewisen by the German Academic
 Exchange Service (DAAD).
-* **August 2008-August 2013: KVPY scholarship**​ : awarded a scholarship to pursue my BS-MS dual
+* August 2008-August 2013: KVPY scholarship​ : awarded a scholarship to pursue my BS-MS dual
 degree by the Government of India.
 
 
 ### Publications (<a href="https://scholar.google.co.in/citations?user=qCvp1tAAAAAJ&hl=en&oi=ao" target="_blank"> Google Scholar link</a>)
 
+* 'Calibrated microphone array recordings reveal that a gleaning bat emits low-intensity echolocation calls even in open-space habitat', Lena de Framond, **Thejasvi Beleyur**, Daniel Lewanzik & Holger R. Goerlitz (2023). Journal of Experimental Biology, 226(18),
 * 'beamshapes: A python package to generate directivity patterns for various sound source
 models', 2022, Journal of Open Source Software, **Thejasvi Beleyur**, 
 * 'Modelling active sensing reveals echo detection even in large groups of bats', **Thejasvi Beleyur**,
