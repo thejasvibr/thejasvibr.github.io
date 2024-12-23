@@ -6,7 +6,7 @@ category:
 link: about
 description: 
 type: text
-
+    
 I'm a behavioural and sensory biologist interested in studying how animals do the crazy things they do.
 Some of the animals I've studied (and am studying) are social spiders, bats,..robots..and...plants. I like to mix behavioural observations, sensory measurements, modelling, and cool tech with
 lots of  Python code to understand more about the how and why of animal behaviour. 
@@ -16,7 +16,8 @@ lots of  Python code to understand more about the how and why of animal behaviou
 Thanks for landing up here, and do check  out the other pages about my research, publications, and my blog where I write mostly about 
 science and scientific computing.
 
-### *Updates*
+### *Updates*           
+* 2024-08 : BIGG news -- was awarded the Carl Zeiss Nexus grant to start my own research group, stay tuned for more!
 * 2023-12 : CASCB 'Small' grant funded for the pilot ['Swarm Ro-BAT-cs' grant](https://www.exc.uni-konstanz.de/collective-behaviour/research/structure/c-computational-methods/swarm-ro-bat-ics-building-a-robot-analog-of-echolocating-swarms/), project due to start March 2024!!
 * 2023-10 : Best early-career researcher talk at the International Bio Acoustics Congress held at Sapporo, Japan!
 * 2023-10 : Awarded the CASCB postdoc fellowship - start to be decided.
